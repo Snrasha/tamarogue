@@ -1,0 +1,42 @@
+{
+  "Element": "DarkWind",
+  "BaseHP": 13.0,
+  "BaseWeight": 100,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.2,
+    "Magic": 0.4,
+    "Wisdom": 0.5,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "DeathWing",
+      "Level": 12
+    },
+    {
+      "Tech": "Swoop",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Vulou",
+  "Diet": "Carnivore",
+  "Class": "Bird",
+  "Behavior": "Patrol",
+  "Drops": [
+    {
+      "Item": "Skull",
+      "Chance": 0.5
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Meat",
+  "Passive": "Scavenger",
+  "EXPCurve": "Normal",
+  "DexDescription": "A large vulture Tama.",
+  "Spot": "PeripheralCliffs",
+  "NoShadow": true,
+  "BattleTriggerOnItemDiscard": "Meat"
+}

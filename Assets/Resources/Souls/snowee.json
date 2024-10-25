@@ -1,0 +1,53 @@
+{
+    "Element": "Ice",
+    "BaseHP": 12.0,
+    "BaseWeight": 90,
+    "Affinity": {
+      "HP": 0.9,
+      "Strength": 0.8,
+      "Magic": 0.6,
+      "Wisdom": 0.4,
+      "Speed": 0.8
+    },
+    "Techs": [
+      {
+        "Tech": "Snowball",
+        "Level": 1
+      },
+      {
+        "Tech": "IceSpear",
+        "Level": 2
+      },
+      {
+        "Tech": "WaterSpear",
+        "Level": 5
+      },
+      {
+        "Tech": "AnchorTrap",
+        "Level": 10
+      }
+    ],
+    "Evolutions": [
+      {
+        "Species": "Snowdra",
+        "Level": 12
+      }
+    ],
+    "BaseAncestor": "Snowee",
+    "Diet": "Carnivore",
+    "Class": "Fish",
+    "Behavior": "Stationary",
+    "Drops": [
+      {
+        "Item": "HiddenChip",
+        "Chance": 0.25
+      }
+    ],
+    "Name": null,
+    "FavoriteItem": "CDFish",
+    "Passive": "Swimmer",
+    "EXPCurve": "Normal",
+    "DexDescription": "A snow fish Tama.",
+    "Spot": "Snowlands"
+  }
+  

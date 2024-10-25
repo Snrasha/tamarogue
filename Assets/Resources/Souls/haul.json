@@ -1,0 +1,52 @@
+{
+  "Element": "Machine",
+  "BaseHP": 10.0,
+  "BaseWeight": 120,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.0,
+    "Magic": 0.4,
+    "Wisdom": 0.2,
+    "Speed": 0.6
+  },
+  "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "Claw",
+      "Level": 2
+    },
+    {
+      "Tech": "ArmorBash",
+      "Level": 5
+    },
+    {
+      "Tech": "EarthTail",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Hauorc",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Haul",
+  "Diet": "Carnivore",
+  "Class": "Lizard",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "Helmet",
+      "Chance": 0.1
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Helmet",
+  "Passive": "Chainmail",
+  "EXPCurve": "Normal",
+  "DexDescription": "An armor lizard Tama.",
+  "Spot": "ScorchingSands"
+}

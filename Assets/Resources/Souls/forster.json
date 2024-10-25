@@ -1,0 +1,42 @@
+{
+  "Element": "Ice",
+  "BaseHP": 12.0,
+  "BaseWeight": 90,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.2,
+    "Magic": 0.6,
+    "Wisdom": 0.4,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "ColdServe",
+      "Level": 12
+    },
+    {
+      "Tech": "SnowCannon",
+      "Level": 15
+    },
+    {
+      "Tech": "IceSpear",
+      "Level": 17
+    },
+    {
+      "Tech": "SparklingIcedWater",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Enpen",
+  "Diet": "Carnivore",
+  "Class": "Bird",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "IceCube",
+  "Passive": "ServedCold",
+  "EXPCurve": "Normal",
+  "DexDescription": "A butler penguin Tama.",
+  "Spot": "Snowlands"
+}

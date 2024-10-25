@@ -1,0 +1,36 @@
+{
+  "Element": "DarkElec",
+  "BaseHP": 12.0,
+  "BaseWeight": 80,
+  "Affinity": {
+    "HP": 0.95,
+    "Strength": 0.55,
+    "Magic": 1.05,
+    "Wisdom": 0.65,
+    "Speed": 1.15
+  },
+  "Techs": [
+    {
+      "Tech": "TimeOut",
+      "Level": 19
+    },
+    {
+      "Tech": "GridExplosion",
+      "Level": 22
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Ecto",
+  "Diet": "Metalvore",
+  "Class": "Phantasm",
+  "Behavior": "Stationary",
+  "Drops": [
+
+  ],
+  "Name": null,
+  "FavoriteItem": "Fiber",
+  "Passive": "OutOfPhase",
+  "EXPCurve": "Normal",
+  "Spot": ""
+}

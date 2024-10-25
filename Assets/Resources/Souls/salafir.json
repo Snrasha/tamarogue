@@ -1,0 +1,72 @@
+{
+  "Element": "Fire",
+  "BaseHP": 9.0,
+  "BaseWeight": 100,
+  "Affinity": {
+    "HP": 0.85,
+    "Strength": 1.12,
+    "Magic": 0.5,
+    "Wisdom": 0.2,
+    "Speed": 0.65
+  },
+  "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "FireSpit",
+      "Level": 2
+    },
+    {
+      "Tech": "TrapKick",
+      "Level": 4
+    },
+    {
+      "Tech": "FlameTail",
+      "Level": 7
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Magmafir",
+      "Level": 10,
+      "Mind": {
+        "min": -1,
+        "max": 19
+      },
+      "Weight": {
+        "min": 91,
+        "max": 999999
+      }
+    },
+    {
+      "Species": "Serpehyr",
+      "Level": 10,
+      "Mind": {
+        "min": 20,
+        "max": 999999
+      },
+      "Weight": {
+        "min": -1,
+        "max": 90
+      }
+    }
+  ],
+  "BaseAncestor": "Salafir",
+  "Diet": "Metalvore",
+  "Class": "Lizard",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "MagmaRock",
+      "Chance": 0.25
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "MagmaRock",
+  "Passive": "None",
+  "EXPCurve": "Normal",
+  "DexDescription": "A magma rock lizard Tama.",
+  "Spot": "BinaryForest"
+}

@@ -1,0 +1,31 @@
+{
+    "Element": "DarkWater",
+    "BaseHP": 6.0,
+    "BaseWeight": 80,
+    "Affinity": {
+        "HP": 0.8,
+        "Strength": 0.7,
+        "Magic": 0.6,
+        "Wisdom": 0.4,
+        "Speed": 1.0
+      },
+      "Techs": [
+      {
+        "Tech": "Bash",
+        "Level": 1
+      }
+    ],
+    "Evolutions": [
+    ],
+    "BaseAncestor": "Froxic",
+    "Diet": "Omnivore",
+    "Class": "Amphibian",
+    "Behavior": "Aggressive",
+    "Drops": [],
+    "Name": null,
+    "FavoriteItem": "ZipFly",
+    "Passive": "None",
+    "EXPCurve": "Normal",
+    "Spot": "ProtocolForest"
+  }
+  

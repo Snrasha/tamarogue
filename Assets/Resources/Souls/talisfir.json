@@ -1,0 +1,33 @@
+{
+    "Element": "Fire",
+    "BaseHP": 19.0,
+    "BaseWeight": 200,
+    "Affinity": {
+      "HP": 1.07,
+      "Strength": 1.1,
+      "Magic": 1.3,
+      "Wisdom": 0.6,
+      "Speed": 0.9
+    },
+    "Techs": [
+      {
+        "Tech": "SolarDrive",
+        "Level": 22
+      },
+      {
+        "Tech": "SunStrike",
+        "Level": 25
+      }
+    ],
+    "Evolutions": [],
+    "BaseAncestor": "Talfou",
+    "Diet": "Carnivore",
+    "Class": "Wolf",
+    "Behavior": "Stationary",
+    "Drops": [],
+    "Name": null,
+    "FavoriteItem": "Meat",
+    "Passive": "Sunspot",
+    "EXPCurve": "Normal",
+    "Spot": ""
+}

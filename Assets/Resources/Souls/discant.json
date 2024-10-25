@@ -1,0 +1,54 @@
+{
+  "Element": "Machine",
+  "BaseHP": 9.0,
+  "BaseWeight": 45,
+  "BaseStrength": 1.0,
+  "BaseMind": 1.25,
+  "BaseSpeed": 1.25,
+  "BaseWisdom": 1.0,
+  "Affinity": {
+      "HP": 0.5,
+      "Strength": 0.6,
+      "Magic": 0.9,
+      "Wisdom": 0.2,
+      "Speed": 0.7
+    },
+    "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "MetalSlice",
+      "Level": 2
+    },
+    {
+      "Tech": "DiscShield",
+      "Level": 5
+    },
+    {
+      "Tech": "GyroStrike",
+      "Level": 10
+    },
+    {
+      "Tech": "DirectCurrent",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Discant",
+  "Diet": "Herbivore",
+  "Class": "Insect",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "BlankDisc",
+      "Chance": 0.8
+    }
+  ],
+  "FavoriteItem": "BlankDisc",
+  "Passive": "CDArmor",
+  "EXPCurve": "Normal",
+  "DexDescription": "A mechanical ant Tama.",
+  "Spot": "AccessPlains"
+}

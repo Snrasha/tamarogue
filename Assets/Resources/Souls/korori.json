@@ -1,0 +1,51 @@
+{
+  "Element": "Native",
+  "BaseHP": 10.0,
+  "BaseWeight": 80,
+  "Affinity": {
+      "HP": 0.9,
+      "Strength": 0.5,
+      "Magic": 1.1,
+      "Wisdom": 0.4,
+      "Speed": 0.7
+    },
+    "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "RainSap",
+      "Level": 2
+    },
+    {
+      "Tech": "RootHeal",
+      "Level": 4
+    },
+    {
+      "Tech": "RainyStrike",
+      "Level": 7
+    },
+    {
+      "Tech": "PetalPellet",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Korori",
+  "Diet": "Herbivore",
+  "Class": "Plant",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "Leaf",
+      "Chance": 0.3
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "WaterDrop",
+  "Passive": "Rainheal",
+  "EXPCurve": "Normal",
+  "DexDescription": "A rain leaf Tama.",
+  "Spot": "Rainlands"
+}

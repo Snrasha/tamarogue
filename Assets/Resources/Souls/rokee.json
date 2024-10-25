@@ -1,0 +1,56 @@
+{
+  "Element": "Earth",
+  "BaseHP": 10.0,
+  "BaseWeight": 125,
+  "Affinity": {
+    "HP": 0.8,
+    "Strength": 1.0,
+    "Magic": 0.3,
+    "Wisdom": 0.2,
+    "Speed": 0.6
+  },
+  "Techs": [
+    {
+      "Tech": "RockBash",
+      "Level": 1
+    },
+    {
+      "Tech": "EarthKick",
+      "Level": 2
+    },
+    {
+      "Tech": "StoneStun",
+      "Level": 4
+    },
+    {
+      "Tech": "BlockTail",
+      "Level": 7
+    },
+    {
+      "Tech": "RockSling",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Goliarth",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Rokee",
+  "Diet": "Metalvore",
+  "Class": "Lizard",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "Rock",
+      "Chance": 0.4
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Rock",
+  "Passive": "None",
+  "EXPCurve": "Steep",
+  "DexDescription": "A rock golem Tama.",
+  "Spot": "PeripheralCliffs"
+}

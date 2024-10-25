@@ -1,0 +1,62 @@
+{
+  "Element": "Earth",
+  "BaseHP": 8.0,
+  "BaseWeight": 80,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 0.8,
+    "Magic": 0.4,
+    "Wisdom": 0.2,
+    "Speed": 0.5
+  },
+  "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "NativeKick",
+      "Level": 2
+    },
+    {
+      "Tech": "SilverClaw",
+      "Level": 4
+    },
+    {
+      "Tech": "GroundPound",
+      "Level": 7
+    },
+    {
+      "Tech": "EarthTail",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+        "Species": "Rapiter",
+        "Level": 10,
+        "Weight": {
+          "min": -1,
+          "max": 119
+        }
+    },
+    {
+      "Species": "Barraptor",
+      "Level": 10,
+      "Weight": {
+        "min": 120,
+        "max": 999999
+      }
+    }
+  ],
+  "BaseAncestor": "Cera",
+  "Diet": "Carnivore",
+  "Class": "Lizard",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "FavoriteItem": "Bone",
+  "Passive": "None",
+  "EXPCurve": "Easy",
+  "DexDescription": "A baby raptor Tama.",
+  "Spot": "Peripheral Cliffs"
+}

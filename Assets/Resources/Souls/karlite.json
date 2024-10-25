@@ -1,0 +1,50 @@
+{
+  "Element": "Earth",
+  "BaseHP": 10.0,
+  "BaseWeight": 90,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 0.6,
+    "Magic": 1.0,
+    "Wisdom": 0.2,
+    "Speed": 0.7
+  },
+  "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "CrystalDust",
+      "Level": 2
+    },
+    {
+      "Tech": "QuartzShot",
+      "Level": 4
+    },
+    {
+      "Tech": "EarthTail",
+      "Level": 7
+    },
+    {
+      "Tech": "CrystalBlast",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Garnith",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Karlite",
+  "Diet": "Metalvore",
+  "Class": "Lizard",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "FavoriteItem": "Gemstone",
+  "Passive": "None",
+  "EXPCurve": "Normal",
+  "DexDescription": "A crystal dragon Tama.",
+  "Spot": "PeripheralCliffs"
+}

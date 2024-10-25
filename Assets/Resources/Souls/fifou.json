@@ -1,0 +1,63 @@
+{
+  "Element": "Wind",
+  "BaseHP": 10.0,
+  "BaseWeight": 80,
+  "Affinity": {
+    "HP": 0.5,
+    "Strength": 0.65,
+    "Magic": 0.85,
+    "Wisdom": 0.45,
+    "Speed": 1.0
+  },
+  "Techs": [
+    {
+      "Tech": "Peck",
+      "Level": 1
+    },
+    {
+      "Tech": "TinyWing",
+      "Level": 2
+    },
+    {
+      "Tech": "WinterWind",
+      "Level": 4
+    },
+    {
+      "Tech": "Squall",
+      "Level": 7
+    },
+    {
+      "Tech": "WindStrike",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Zephyr",
+      "Level": 10,
+      "Speed": {
+        "min": 20,
+        "max": 999999
+      }
+    },
+    {
+      "Species": "Fowlhoo",
+      "Level": 10,
+      "Speed": {
+        "min": -2147483648,
+        "max": 19
+      }
+    }
+  ],
+  "BaseAncestor": "Fifou",
+  "Diet": "Omnivore",
+  "Class": "Bird",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "ChipWorm",
+  "Passive": "Whirlwind",
+  "EXPCurve": "Normal",
+  "DexDescription": "An eggshell bird Tama.",
+  "Spot": "BinaryForest"
+}

@@ -1,0 +1,34 @@
+{
+  "Element": "Native",
+  "BaseHP": 18.0,
+  "BaseWeight": 120,
+  "Affinity": {
+    "HP": 1.15,
+    "Strength": 1.3,
+    "Magic": 0.4,
+    "Wisdom": 0.2,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "HeavyBash",
+      "Level": 11
+    },
+    {
+      "Tech": "EarthTail",
+      "Level": 13
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Carnee",
+  "Diet": "Carnivore",
+  "Class": "Plant",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Meat",
+  "Passive": "Flytrap",
+  "EXPCurve": "Normal",
+  "DexDescription": "A carnivorous plant Tama.",
+  "Spot": ""
+}

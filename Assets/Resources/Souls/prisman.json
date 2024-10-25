@@ -1,0 +1,58 @@
+{
+  "Element": "Neutral",
+  "BaseHP": 20.0,
+  "BaseWeight": 150,
+  "Affinity": {
+      "HP": 1.25,
+      "Strength": 1.0,
+      "Magic": 1.0,
+      "Wisdom": 1.0,
+      "Speed": 1.0
+    },
+    "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "Cry",
+      "Level": 2
+    },
+    {
+      "Tech": "Disintegration",
+      "Level": 5
+    },
+    {
+      "Tech": "ConeGuard",
+      "Level": 10
+    },
+    {
+      "Tech": "DiamondCutter",
+      "Level": 13
+    },
+    {
+      "Tech": "HedronCollider",
+      "Level": 16
+    },
+    {
+      "Tech": "StarBeam",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Prisman",
+  "Diet": "Metalvore",
+  "Class": "Man",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "Stardust",
+      "Chance": 0.25
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Stardust",
+  "Passive": "Negative",
+  "EXPCurve": "Normal",
+  "Spot": "MemoryMeadow"
+}

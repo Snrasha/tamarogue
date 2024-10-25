@@ -1,0 +1,51 @@
+{
+    "Element": "Ice",
+    "BaseHP": 9.0,
+    "BaseWeight": 80,
+    "Affinity": {
+      "HP": 0.9,
+      "Strength": 0.85,
+      "Magic": 0.65,
+      "Wisdom": 0.55,
+      "Speed": 0.7
+    },
+    "Techs": [
+      {
+        "Tech": "Bite",
+        "Level": 1
+      },
+      {
+        "Tech": "Snowball",
+        "Level": 2
+      },
+      {
+        "Tech": "Claw",
+        "Level": 5
+      },
+      {
+        "Tech": "IceIceBlock",
+        "Level": 10
+      }
+    ],
+    "Evolutions": [
+      {
+        "Species": "Shovulf",
+        "Level": 10
+      }
+    ],
+    "BaseAncestor": "Wolfee",
+    "Diet": "Omnivore",
+    "Class": "Wolf",
+    "Behavior": "Stationary",
+    "Drops": [
+      {
+        "Item": "ToyShovel",
+        "Chance": 0.25
+      }
+    ],
+    "FavoriteItem": "ToyShovel",
+    "Passive": "None",
+    "EXPCurve": "Normal",
+    "Spot": "Snowlands"
+  }
+  

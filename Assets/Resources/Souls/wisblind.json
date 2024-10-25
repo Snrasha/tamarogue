@@ -1,0 +1,52 @@
+{
+  "Element": "Fire",
+  "BaseHP": 10.0,
+  "BaseWeight": 50,
+  "Affinity": {
+      "HP": 1.0,
+      "Strength": 0.6,
+      "Magic": 1.1,
+      "Wisdom": 0.6,
+      "Speed": 0.6
+    },
+    "Techs": [
+    {
+      "Tech": "Inferno",
+      "Level": 12
+    },
+    {
+      "Tech": "Burndown",
+      "Level": 15
+    },
+    {
+      "Tech": "FlameghostClaw",
+      "Level": 18
+    },
+    {
+      "Tech": "DarkInferno",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Wiseraph",
+      "Level": 20
+    }
+  ],
+  "BaseAncestor": "Wispaur",
+  "Diet": "Omnivore",
+  "Class": "Phantasm",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "Candle",
+      "Chance": 0.25
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Candle",
+  "Passive": "Intangible",
+  "EXPCurve": "Normal",
+  "DexDescription": "A flame ghost Tama.",
+  "Spot": "GreiwolfMansion"
+}

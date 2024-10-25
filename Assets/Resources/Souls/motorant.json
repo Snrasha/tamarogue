@@ -1,0 +1,54 @@
+{
+  "Element": "Fire",
+  "BaseHP": 14.0,
+  "BaseWeight": 160,
+  "Affinity": {
+      "HP": 1.0,
+      "Strength": 1.1,
+      "Magic": 0.3,
+      "Wisdom": 0.4,
+      "Speed": 1.2
+    },
+    "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "MetalSlice",
+      "Level": 2
+    },
+    {
+      "Tech": "FireClaw",
+      "Level": 4
+    },
+    {
+      "Tech": "TurboDrive",
+      "Level": 7
+    },
+    {
+      "Tech": "Combustion",
+      "Level": 10
+    },
+    {
+      "Tech": "MetalHeadbash",
+      "Level": 12
+    },
+    {
+      "Tech": "RecklessRush",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Motorant",
+  "Diet": "Carnivore",
+  "Class": "Insect",
+  "Behavior": "Aggressive",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Firecracker",
+  "Passive": "Motorhead",
+  "EXPCurve": "Normal",
+  "DexDescription": "A fire ant Tama.",
+  "Spot": "ScorchingSands"
+}

@@ -1,0 +1,62 @@
+{
+  "Element": "Elec",
+  "BaseHP": 10.0,
+  "BaseWeight": 50,
+  "Affinity": {
+    "HP": 0.8,
+    "Strength": 0.4,
+    "Magic": 1.0,
+    "Wisdom": 0.3,
+    "Speed": 0.6
+  },
+  "Techs": [
+    {
+      "Tech": "GhostSpark",
+      "Level": 1
+    },
+    {
+      "Tech": "SonicWave",
+      "Level": 2
+    },
+    {
+      "Tech": "SteelDriver",
+      "Level": 4
+    },
+    {
+      "Tech": "ShortCircuit",
+      "Level": 7
+    },
+    {
+      "Tech": "PowerGrid",
+      "Level": 10
+    },
+    {
+      "Tech": "DirectCurrent",
+      "Level": 15
+    },
+    {
+      "Tech": "ClockStrike",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Vortex",
+      "Level": 20,
+      "Speed": {
+        "min": 30,
+        "max": 999999
+      }
+    }
+  ],
+  "BaseAncestor": "Ecto",
+  "Diet": "Metalvore",
+  "Class": "Phantasm",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Screwdriver",
+  "Passive": "Intangible",
+  "EXPCurve": "Normal",
+  "Spot": "GreiwolfMansion"
+}

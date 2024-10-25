@@ -1,0 +1,38 @@
+{
+  "Element": "Native",
+  "BaseHP": 10.0,
+  "BaseWeight": 80,
+  "Affinity": {
+      "HP": 1.2,
+      "Strength": 1.1,
+      "Magic": 1.0,
+      "Wisdom": 0.4,
+      "Speed": 0.7
+    },
+    "Techs": [
+    {
+      "Tech": "GrassCannon",
+      "Level": 11
+    },
+    {
+      "Tech": "FlowerBlast",
+      "Level": 13
+    },
+    {
+      "Tech": "FaerieDarts",
+      "Level": 16
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Saplee",
+  "Diet": "Herbivore",
+  "Class": "Plant",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Acorn",
+  "Passive": "Synthesis2",
+  "EXPCurve": "Normal",
+  "DexDescription": "An adult acorn Tama.",
+  "Spot": ""
+}

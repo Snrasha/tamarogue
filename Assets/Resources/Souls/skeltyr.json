@@ -1,0 +1,46 @@
+{
+  "Element": "Earth",
+  "BaseHP": 12.0,
+  "BaseWeight": 140,
+  "Affinity": {
+      "HP": 1.0,
+      "Strength": 1.2,
+      "Magic": 1.0,
+      "Wisdom": 0.4,
+      "Speed": 0.8
+    },
+    "Techs": [
+    {
+      "Tech": "TailSwipe",
+      "Level": 10
+    },
+    {
+      "Tech": "GhoulClaw",
+      "Level": 12
+    },
+    {
+      "Tech": "BeastBite",
+      "Level": 16
+    },
+    {
+      "Tech": "SandDive",
+      "Level": 20
+    },
+    {
+      "Tech": "BoneWolfClaw",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Talfou",
+  "Diet": "Carnivore",
+  "Class": "Wolf",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Bone",
+  "Passive": "Gravedigger",
+  "EXPCurve": "Normal",
+  "DexDescription": "A skeleton dog Tama.",
+  "Spot": ""
+}

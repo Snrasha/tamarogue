@@ -1,0 +1,37 @@
+{
+  "Element": "Native",
+  "BaseHP": 16.0,
+  "BaseWeight": 120,
+  "Affinity": {
+      "HP": 1.2,
+      "Strength": 0.7,
+      "Magic": 1.0,
+      "Wisdom": 0.4,
+      "Speed": 0.8
+    },
+    "Techs": [
+    {
+      "Tech": "FlowerBlast",
+      "Level": 11
+    },
+    {
+      "Tech": "RootHeal",
+      "Level": 13
+    },
+    {
+      "Tech": "DeepSapDrill",
+      "Level": 16
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Molun",
+  "Diet": "Herbivore",
+  "Class": "Bear",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Daffonil",
+  "Passive": "MagicDrill",
+  "EXPCurve": "Normal",
+  "Spot": "BinaryForest"
+}

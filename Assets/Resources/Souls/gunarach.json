@@ -1,0 +1,62 @@
+{
+  "Element": "Machine",
+  "BaseHP": 15.0,
+  "BaseWeight": 150,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.2,
+    "Magic": 0.4,
+    "Wisdom": 0.2,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "MetalSlice",
+      "Level": 1
+    },
+    {
+      "Tech": "MetalStinger",
+      "Level": 5
+    },
+    {
+      "Tech": "BulletBarrage",
+      "Level": 10
+    },
+    {
+      "Tech": "SandShield",
+      "Level": 12
+    },
+    {
+      "Tech": "SteelTail",
+      "Level": 15
+    },
+    {
+      "Tech": "MechannonBlast",
+      "Level": 17
+    },
+    {
+      "Tech": "Machinegun",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Gunarach",
+  "Diet": "Carnivore",
+  "Class": "Insect",
+  "Behavior": "Aggressive", 
+  "Drops": [
+      {
+          "Item": "MetalShell",
+          "Chance": 0.35
+      },
+      {
+          "Item": "HeavyShield",
+          "Chance": 0.05
+      }
+  ],
+  "Name": null,
+  "FavoriteItem": "MetalShell",
+  "Passive": "DoubleGunner",
+  "EXPCurve": "Normal",
+  "Spot": "ScorchingSands"
+}

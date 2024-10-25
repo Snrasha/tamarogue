@@ -1,0 +1,40 @@
+{
+"Element": "DarkEarth",
+"BaseHP": 10.0,
+"BaseWeight": 150,
+"Affinity": {
+    "HP": 0.65,
+    "Strength": 1.15,
+    "Magic": 0.45,
+    "Wisdom": 0.35,
+    "Speed": 0.85
+},
+"Techs": [
+    {
+        "Tech": "ThrustSpear",
+        "Level": 13
+    },
+    {
+        "Tech": "DarkJavelin",
+        "Level": 18
+    }
+],
+"Evolutions": [
+],
+"BaseAncestor": "DarkRokee",
+"Diet": "Metalvore",
+"Class": "Lizard",
+"Behavior": "Slow",
+"Drops": [
+    {
+    "Item": "Spear",
+    "Chance": 0.1
+    }
+],
+"Name": null,
+"FavoriteItem": "Spear",
+"Passive": "Spearhead",
+"EXPCurve": "Steep",
+"DexDescription": "A rock warrior Tama.",
+"Spot": "ProtocolForest"
+}

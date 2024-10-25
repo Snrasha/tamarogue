@@ -1,0 +1,30 @@
+{
+    "Element": "Null",
+    "Affinity": {
+        "HP": 1.0,
+        "Strength": 1.0,
+        "Magic": 1.0,
+        "Wisdom": 1.0,
+        "Speed": 1.0
+    },
+    "Techs": [
+        {
+            "Tech": "NullDrain",
+            "Level": 1
+        },
+        {
+            "Tech": "Corruption",
+            "Level": 1
+        },
+        {
+            "Tech": "FreezeBug",
+            "Level": 1
+        }
+    ],
+    "BaseAncestor": "None",
+    "Diet": "Omnivore",
+    "Class": "None",
+    "Name": "None",
+    "Passive": "Reinit",
+    "EXPCurve": "Steep"
+}

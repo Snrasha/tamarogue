@@ -1,0 +1,51 @@
+{
+  "Element": "Fire",
+  "BaseHP": 9.0,
+  "BaseWeight": 30,
+  "Affinity": {
+    "HP": 0.7,
+    "Strength": 0.4,
+    "Magic": 1.0,
+    "Wisdom": 0.4,
+    "Speed": 0.6
+  },
+  "Techs": [
+    {
+      "Tech": "CandleFlame",
+      "Level": 1
+    },
+    {
+      "Tech": "Breeze",
+      "Level": 2
+    },
+    {
+      "Tech": "EvilFlame",
+      "Level": 5
+    },
+    {
+      "Tech": "GhoulClaw",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Wisblind",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Wispaur",
+  "Diet": "Omnivore",
+  "Class": "Phantasm",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "Candle",
+      "Chance": 0.25
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Candle",
+  "Passive": "Intangible",
+  "EXPCurve": "Easy",
+  "Spot": "GreiwolfMansion"
+}

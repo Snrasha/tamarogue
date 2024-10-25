@@ -1,0 +1,54 @@
+{
+  "Element": "Elec",
+  "BaseHP": 10.0,
+  "BaseWeight": 70,
+  "Affinity": {
+    "HP": 0.75,
+    "Strength": 0.65,
+    "Magic": 1.0,
+    "Wisdom": 0.45,
+    "Speed": 1.0
+  },
+  "Techs": [
+    {
+      "Tech": "TinyWing",
+      "Level": 1
+    },
+    {
+      "Tech": "Zap",
+      "Level": 2
+    },
+    {
+      "Tech": "SonicWave",
+      "Level": 5
+    },
+    {
+      "Tech": "BlitzStrike",
+      "Level": 10
+    },
+    {
+      "Tech": "ShortCircuit",
+      "Level": 12
+    },
+    {
+      "Tech": "LightningWind",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Sparking",
+      "Level": 15
+    }
+  ],
+  "BaseAncestor": "Sparkrow",
+  "Diet": "Carnivore",
+  "Class": "Bird",
+  "Behavior": "Stationary",
+  "Drops": [
+  ],
+  "FavoriteItem": "Sparkstone",
+  "Passive": "Discharge",
+  "EXPCurve": "Easy",
+  "Spot": "MemoryMeadow"
+}

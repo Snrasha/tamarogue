@@ -1,0 +1,41 @@
+{
+  "Element": "Water",
+  "BaseHP": 15.0,
+  "BaseWeight": 120,
+  "Affinity": {
+    "HP": 1.1,
+    "Strength": 0.55,
+    "Magic": 1.15,
+    "Wisdom": 0.75,
+    "Speed": 0.65
+  },
+  "Techs": [
+    {
+      "Tech": "WaterRing",
+      "Level": 10
+    },
+    {
+      "Tech": "MysticWave",
+      "Level": 12
+    },
+    {
+      "Tech": "AquaBarrier",
+      "Level": 15
+    },
+    {
+      "Tech": "WaveCannon",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Dragonee",
+  "Diet": "Herbivore",
+  "Class": "Insect",
+  "Behavior": "Slow",
+  "Drops": [],
+  "FavoriteItem": "WaterDrop",
+  "Passive": "MechParts",
+  "EXPCurve": "Normal",
+  "DexDescription": "A mechanical firefly Tama.",
+  "Spot": ""
+}

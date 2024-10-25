@@ -1,0 +1,33 @@
+{
+    "Element": "Water",
+    "BaseHP": 15.0,
+    "BaseWeight": 165,
+    "Affinity": {
+      "HP": 1.05,
+      "Strength": 1.25,
+      "Magic": 0.35,
+      "Wisdom": 0.4,
+      "Speed": 0.85
+    },
+    "Techs": [
+        {
+            "Tech": "StealthMode",
+            "Level": 21
+        },
+        {
+            "Tech": "MudDragonSniper",
+            "Level": 25
+        }
+    ],
+    "Evolutions": [
+    ],
+    "Passive": "Sniper2",
+    "BaseAncestor": "Gatou",
+    "Diet": "Omnivore",
+    "Class": "Amphibian",
+    "Behavior": "Slow",
+    "Drops": [],
+    "EXPCurve": "Normal",
+    "Spot": "MistyMarsh"
+  }
+  

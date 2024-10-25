@@ -1,0 +1,42 @@
+{
+  "Element": "Fire",
+  "BaseHP": 8.0,
+  "BaseWeight": 100,
+  "Affinity": {
+    "HP": 0.8,
+    "Strength": 1.0,
+    "Magic": 0.8,
+    "Wisdom": 0.5,
+    "Speed": 0.7
+  },
+  "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "Claw",
+      "Level": 2
+    },
+    {
+      "Tech": "BlueFlame",
+      "Level": 4
+    },
+    {
+      "Tech": "FlameTail",
+      "Level": 7
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Averat",
+  "Diet": "Herbivore",
+  "Class": "Bear",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Honey",
+  "Passive": "FastLearner",
+  "EXPCurve": "Normal",
+  "DexDescription": "An average rat Tama.",
+  "Spot": "BinaryForest"
+}

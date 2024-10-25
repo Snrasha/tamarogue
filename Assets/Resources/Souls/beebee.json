@@ -1,0 +1,46 @@
+{
+  "Element": "Native",
+  "BaseHP": 16.0,
+  "BaseWeight": 80,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.2,
+    "Magic": 0.8,
+    "Wisdom": 0.4,
+    "Speed": 0.9
+  },
+  "Techs": [
+    {
+      "Tech": "BuzzArrow",
+      "Level": 11
+    },
+    {
+      "Tech": "HoneyCannon",
+      "Level": 13
+    },
+    {
+      "Tech": "RootHeal",
+      "Level": 16
+    },
+    {
+      "Tech": "HornetStrike",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Larvee",
+  "Diet": "Herbivore",
+  "Class": "Insect",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "Honey",
+      "Chance": 0.2
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Honey",
+  "Passive": "Honeybee",
+  "EXPCurve": "Normal",
+  "Spot": ""
+}

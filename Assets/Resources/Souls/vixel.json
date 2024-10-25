@@ -1,0 +1,39 @@
+{
+  "Element": "Neutral",
+  "BaseHP": 15.0,
+  "BaseWeight": 120,
+  "Affinity": {
+    "HP": 1.1,
+    "Strength": 0.8,
+    "Magic": 1.2,
+    "Wisdom": 0.4,
+    "Speed": 0.7
+  },
+  "Techs": [
+    {
+      "Tech": "HeartStrike",
+      "Level": 12
+    },
+    {
+      "Tech": "PhoenixFlame",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Vixee",
+  "Diet": "Herbivore",
+  "Class": "Fox",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "HeartPatch",
+      "Chance": 0.4
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "HeartPatch",
+  "Passive": "Healer2",
+  "EXPCurve": "Normal",
+  "DexDescription": "A healer fox Tama.",
+  "Spot": ""
+}

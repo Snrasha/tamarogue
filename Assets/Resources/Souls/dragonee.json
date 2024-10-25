@@ -1,0 +1,62 @@
+{
+  "Element": "Machine",
+  "BaseHP": 10.0,
+  "BaseWeight": 60,
+  "Affinity": {
+    "HP": 0.7,
+    "Strength": 0.85,
+    "Magic": 0.6,
+    "Wisdom": 0.2,
+    "Speed": 1.0
+  },
+  "Techs": [
+    {
+      "Tech": "Buzz",
+      "Level": 1
+    },
+    {
+      "Tech": "TinyFlame",
+      "Level": 2
+    },
+    {
+      "Tech": "Fireball",
+      "Level": 4
+    },
+    {
+      "Tech": "GyroStrike",
+      "Level": 7
+    },
+    {
+      "Tech": "FlareBlast",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Faeriee",
+      "Level": 10,
+      "Speed": {
+        "min": -1,
+        "max": 29
+      }
+    },
+    {
+      "Species": "Horninja",
+      "Level": 10,
+      "Speed": {
+        "min": 30,
+        "max": 999999
+      }
+    }
+  ],
+  "BaseAncestor": "Dragonee",
+  "Diet": "Herbivore",
+  "Class": "Insect",
+  "Behavior": "Slow",
+  "Drops": [],
+  "FavoriteItem": "WaterDrop",
+  "Passive": "None",
+  "EXPCurve": "Normal",
+  "DexDescription": "A mechanical firefly Tama.",
+  "Spot": "MistyMarsh"
+}

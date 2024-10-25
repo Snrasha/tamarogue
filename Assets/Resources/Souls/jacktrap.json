@@ -1,0 +1,52 @@
+{
+  "Element": "Machine",
+  "BaseHP": 11.0,
+  "BaseWeight": 95,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.0,
+    "Magic": 1.0,
+    "Wisdom": 0.65,
+    "Speed": 1.05
+  },
+  "Techs": [
+    {
+      "Tech": "Return",
+      "Level": 1
+    },
+    {
+      "Tech": "TrapKick",
+      "Level": 2
+    },
+    {
+      "Tech": "WaterBurst",
+      "Level": 5
+    },
+    {
+      "Tech": "SiphonSwitch",
+      "Level": 10
+    },
+    {
+      "Tech": "PartyTrap",
+      "Level": 15
+    },
+    {
+      "Tech": "SpringSurprise",
+      "Level": 20
+    },
+    {
+      "Tech": "BirthdayParty",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Jacktrap",
+  "Diet": "Metalvore",
+  "Class": "Mechanica",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "FavoriteItem": "MiracleMushroom",
+  "Passive": "MagicBox",
+  "EXPCurve": "Normal",
+  "Spot": ""
+}

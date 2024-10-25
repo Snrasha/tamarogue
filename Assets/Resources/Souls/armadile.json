@@ -1,0 +1,52 @@
+{
+  "Element": "Earth",
+  "BaseHP": 15.0,
+  "BaseWeight": 170,
+  "Affinity": {
+    "HP": 1.05,
+    "Strength": 1.15,
+    "Magic": 0.45,
+    "Wisdom": 0.4,
+    "Speed": 0.95
+  },
+  "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "EarthKick",
+      "Level": 2
+    },
+    {
+      "Tech": "EarthArmor",
+      "Level": 5
+    },
+    {
+      "Tech": "HeavyBash",
+      "Level": 10
+    },
+    {
+      "Tech": "DynamitePunch",
+      "Level": 15
+    },
+    {
+      "Tech": "HardCrustPunch",
+      "Level": 20
+    },
+    {
+      "Tech": "Quake",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Armadee",
+  "Diet": "Omnivore",
+  "Class": "Mouse",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "FavoriteItem": "Cheese",
+  "Passive": "Armoring",
+  "EXPCurve": "Normal",
+  "Spot": "MtNexus"
+}

@@ -1,0 +1,35 @@
+{
+  "Element": "Wind",
+  "BaseHP": 12.0,
+  "BaseWeight": 105,
+  "Affinity": {
+      "HP": 1.1,
+      "Strength": 1.0,
+      "Magic": 0.3,
+      "Wisdom": 0.4,
+      "Speed": 1.1
+    },
+    "Techs": [
+    {
+      "Tech": "GaleStrike",
+      "Level": 12
+    },
+    {
+      "Tech": "SearingClaws",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Harpee",
+  "Diet": "Carnivore",
+  "Class": "Bird",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Feather",
+  "Passive": "Scavenger",
+  "EXPCurve": "Normal",
+  "DexDescription": "A bird hybrid Tama.",
+  "Spot": "PeripheralCliffs"
+}

@@ -1,0 +1,60 @@
+{
+  "Element": "Native",
+  "BaseHP": 4.0,
+  "BaseWeight": 60,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 0.4,
+    "Magic": 0.6,
+    "Wisdom": 0.2,
+    "Speed": 0.6
+  },
+  "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "NativeKick",
+      "Level": 2
+    },
+    {
+      "Tech": "SeedSap",
+      "Level": 4
+    },
+    {
+      "Tech": "WoodenShield",
+      "Level": 5
+    },
+    {
+      "Tech": "WoodPellet",
+      "Level": 7
+    },
+    {
+      "Tech": "RootHeal",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Neiree",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Saplee",
+  "Diet": "Herbivore",
+  "Class": "Plant",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "Acorn",
+      "Chance": 0.2
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Acorn",
+  "Passive": "Synthesis",
+  "EXPCurve": "Easy",
+  "DexDescription": "A baby acorn Tama.",
+  "Spot": "BinaryForest"
+}

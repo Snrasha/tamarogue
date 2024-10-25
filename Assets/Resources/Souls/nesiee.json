@@ -1,0 +1,34 @@
+{
+  "Element": "Machine",
+  "BaseHP": 8.0,
+  "BaseWeight": 60,
+  "Affinity": {
+      "HP": 1.0,
+      "Strength": 1.0,
+      "Magic": 1.0,
+      "Wisdom": 1.0,
+      "Speed": 1.0
+    },
+    "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "BuzzArrow",
+      "Level": 5
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Dragonee",
+  "Diet": "Herbivore",
+  "Class": "Insect",
+  "Behavior": "Slow",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "WaterDrop",
+  "Passive": "None",
+  "EXPCurve": "Normal",
+  "DexDescription": "A mysterious firefly Tama.",
+  "Spot": ""
+}

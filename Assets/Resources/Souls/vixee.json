@@ -1,0 +1,56 @@
+{
+  "Element": "Neutral",
+  "BaseHP": 8.0,
+  "BaseWeight": 80,
+  "Affinity": {
+      "HP": 1.0,
+      "Strength": 0.7,
+      "Magic": 0.9,
+      "Wisdom": 0.4,
+      "Speed": 0.6
+    },
+    "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "Claw",
+      "Level": 2
+    },
+    {
+      "Tech": "AuraRecovery",
+      "Level": 4
+    },
+    {
+      "Tech": "Swipe",
+      "Level": 7
+    },
+    {
+      "Tech": "HealingBite",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Vixel",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Vixee",
+  "Diet": "Herbivore",
+  "Class": "Fox",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "HeartPatch",
+      "Chance": 0.4
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "HeartPatch",
+  "Passive": "Healer",
+  "EXPCurve": "Normal",
+  "DexDescription": "A healer fox Tama.",
+  "Spot": ""
+}

@@ -1,0 +1,50 @@
+{
+  "Element": "Water",
+  "BaseHP": 10.0,
+  "BaseWeight": 100,
+  "Affinity": {
+    "HP": 0.7,
+    "Strength": 0.5,
+    "Magic": 1.0,
+    "Wisdom": 0.2,
+    "Speed": 0.7
+  },
+  "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "Waterball",
+      "Level": 2
+    },
+    {
+      "Tech": "Zap",
+      "Level": 4
+    },
+    {
+      "Tech": "WaterSplash",
+      "Level": 7
+    },
+    {
+      "Tech": "ShortCircuit",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+      {
+        "Species": "Eeleerie",
+        "Level": 10
+      }
+  ],
+  "BaseAncestor": "Eelee",
+  "Diet": "Omnivore",
+  "Class": "Fish",
+  "Behavior": "Aggressive",
+  "Drops": [],
+  "EXPCurve": "Normal",
+  "DexDescription": "A baby eel Tama.",
+  "Passive": "Capacitor",
+  "FavoriteItem": "Battery",
+  "Spot": "MistyMarsh"
+}

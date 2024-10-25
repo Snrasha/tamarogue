@@ -1,0 +1,58 @@
+{
+  "Element": "Null",
+  "BaseHP": 20.0,
+  "BaseWeight": 250,
+  "Affinity": {
+    "HP": 1.05,
+    "Strength": 1.15,
+    "Magic": 1.0,
+    "Wisdom": 0.15,
+    "Speed": 1.05
+  },
+  "Techs": [
+    {
+      "Tech": "DarkRetreat",
+      "Level": 1
+    },
+    {
+      "Tech": "GroundPound",
+      "Level": 2
+    },
+    {
+      "Tech": "HeavyBash",
+      "Level": 3
+    },
+    {
+      "Tech": "DarkShot",
+      "Level": 4
+    },
+    {
+      "Tech": "BoneBash",
+      "Level": 5
+    },
+    {
+      "Tech": "PrimalFear",
+      "Level": 6
+    },
+    {
+      "Tech": "DeathRip",
+      "Level": 7
+    },
+    {
+      "Tech": "NullHeal",
+      "Level": 8
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Prisoner",
+  "Diet": "Carnivore",
+  "Class": "Phantasm",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "RAMSteak",
+  "Passive": "Feasting",
+  "EXPCurve": "Steep",
+  "Spot": "ToyCastle"
+}

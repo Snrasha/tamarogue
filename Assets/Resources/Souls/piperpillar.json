@@ -1,0 +1,45 @@
+{
+    "Element": "Native",
+    "BaseHP": 10.0,
+    "BaseWeight": 120,
+    "Affinity": {
+      "HP": 1.15,
+      "Strength": 0.85,
+      "Magic": 0.95,
+      "Wisdom": 0.65,
+      "Speed": 0.45
+    },
+    "Techs": [
+      {
+        "Tech": "SeedSap",
+        "Level": 11
+      },
+      {
+        "Tech": "WoodPellet",
+        "Level": 12
+      },
+      {
+        "Tech": "CoatOfMist",
+        "Level": 13
+      },
+      {
+        "Tech": "SeedBarrage",
+        "Level": 15
+      }
+    ],
+    "Evolutions": [
+    ],
+    "BaseAncestor": "Larvee",
+    "Diet": "Herbivore",
+    "Class": "Insect",
+    "Behavior": "Stationary",
+    "Drops": [
+    ],
+    "Name": null,
+    "FavoriteItem": "Smokepipe",
+    "Passive": "Nibble",
+    "EXPCurve": "Normal",
+    "DexDescription": "A large caterpillar Tama.",
+    "Spot": "Flatland"
+  }
+  

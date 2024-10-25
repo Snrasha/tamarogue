@@ -1,0 +1,51 @@
+{
+  "Element": "Earth",
+  "BaseHP": 14.0,
+  "BaseWeight": 120,
+  "Affinity": {
+      "HP": 0.9,
+      "Strength": 1.0,
+      "Magic": 0.75,
+      "Wisdom": 0.35,
+      "Speed": 0.5
+    },
+    "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "EarthKick",
+      "Level": 2
+    },
+    {
+      "Tech": "MetalClaws",
+      "Level": 4
+    },
+    {
+      "Tech": "GroundPound",
+      "Level": 7
+    },
+    {
+      "Tech": "EarthBlock",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Kobalth",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Kobou",
+  "Diet": "Herbivore",
+  "Class": "Lizard",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Carapace",
+  "Passive": "Hardening",
+  "EXPCurve": "Normal",
+  "DexDescription": "An earth kobold Tama.",
+  "Spot": "BinaryForest"
+}

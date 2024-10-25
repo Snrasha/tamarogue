@@ -1,0 +1,46 @@
+{
+  "Element": "Wind",
+  "BaseHP": 16.0,
+  "BaseWeight": 100,
+  "Affinity": {
+    "HP": 1.1,
+    "Strength": 0.4,
+    "Magic": 1.3,
+    "Wisdom": 0.4,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "GaleStrike",
+      "Level": 12
+    },
+    {
+      "Tech": "WaveCannon",
+      "Level": 15
+    },
+    {
+      "Tech": "AquaBarrier",
+      "Level": 18
+    },
+    {
+      "Tech": "AuroraLightBeam",
+      "Level": 20
+    },
+    {
+      "Tech": "UroborosCode",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Salafir",
+  "Diet": "Metalvore",
+  "Class": "Lizard",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "MiracleDisc",
+  "Passive": "Mysticism",
+  "EXPCurve": "Normal",
+  "DexDescription": "A sky serpent Tama.",
+  "Spot": ""
+}

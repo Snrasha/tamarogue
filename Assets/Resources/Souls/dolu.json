@@ -1,0 +1,57 @@
+{
+    "Element": "DarkEarth",
+    "BaseHP": 9.0,
+    "BaseWeight": 110,
+    "Affinity": {
+      "HP": 0.8,
+      "Strength": 0.9,
+      "Magic": 0.7,
+      "Wisdom": 0.4,
+      "Speed": 0.5
+    },
+    "Techs": [
+      {
+        "Tech": "Bash",
+        "Level": 1
+      },
+      {
+        "Tech": "EarthKick",
+        "Level": 3
+      },
+      {
+        "Tech": "StoneStun",
+        "Level": 5
+      },
+      {
+        "Tech": "StoneShield",
+        "Level": 8
+      },
+      {
+        "Tech": "CrystalBlast",
+        "Level": 10
+      }
+    ],
+    "Evolutions": [
+      {
+        "Species": "Shindoll",
+        "Level": 12
+      }
+    ],
+    "BaseAncestor": "Dolu",
+    "Diet": "Metalvore",
+    "Class": "Mechanica",
+    "Behavior": "Stationary",
+    "Drops": [
+      {
+        "Item": "RuneStone",
+        "Chance": 0.1
+      }
+    ],
+    "Name": null,
+    "FavoriteItem": "RuneStone",
+    "Passive": "RunicBody",
+    "EXPCurve": "Steep",
+    "DexDescription": "An earthen doll Tama.",
+    "Spot": "ProtocolForest"
+  }
+  

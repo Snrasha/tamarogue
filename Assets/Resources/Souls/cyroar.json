@@ -1,0 +1,37 @@
+{
+  "Element": "DarkMachine",
+  "BaseHP": 16.0,
+  "BaseWeight": 210,
+  "Affinity": {
+    "HP": 1.05,
+    "Strength": 1.15,
+    "Magic": 0.75,
+    "Wisdom": 0.5,
+    "Speed": 0.95
+  },
+  "Techs": [
+    {
+      "Tech": "MetalTrap",
+      "Level": 18
+    },
+    {
+      "Tech": "MachineRoar",
+      "Level": 21
+    },
+    {
+      "Tech": "SteelJawCrush",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Cubot",
+  "Diet": "Carnivore",
+  "Class": "Bear",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "MechParts",
+  "Passive": "Primal",
+  "EXPCurve": "Steep",
+  "Spot": "ToyCastle"
+}

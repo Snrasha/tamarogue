@@ -1,0 +1,39 @@
+{
+  "Element": "Wind",
+  "BaseHP": 11.0,
+  "BaseWeight": 100,
+  "Affinity": {
+      "HP": 0.9,
+      "Strength": 1.1,
+      "Magic": 0.8,
+      "Wisdom": 0.4,
+      "Speed": 1.2
+    },
+    "Techs": [
+    {
+      "Tech": "SonicPeck",
+      "Level": 12
+    },
+    {
+      "Tech": "CursedWind",
+      "Level": 15
+    },
+    {
+      "Tech": "Tornado",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Hexou",
+  "Diet": "Omnivore",
+  "Class": "Bird",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Skull",
+  "Passive": "Supersonic",
+  "EXPCurve": "Normal",
+  "DexDescription": "A supersonic bird Tama.",
+  "Spot": "PeripheralCliffs"
+}

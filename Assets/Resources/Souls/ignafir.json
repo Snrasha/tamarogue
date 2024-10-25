@@ -1,0 +1,44 @@
+{
+  "Element": "Fire",
+  "BaseHP": 12.0,
+  "BaseWeight": 120,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.05,
+    "Magic": 0.95,
+    "Wisdom": 0.4,
+    "Speed": 0.9
+  },
+  "Techs": [
+    {
+      "Tech": "FlareBlast",
+      "Level": 11
+    },
+    {
+      "Tech": "AirStrike",
+      "Level": 13
+    },
+    {
+      "Tech": "Inferno",
+      "Level": 16
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Ignee",
+  "Diet": "Carnivore",
+  "Class": "Lizard",
+  "Behavior": "PatrolAggressive",
+  "Drops": [
+    {
+      "Item": "ScorchedRock",
+      "Chance": 0.1
+    }
+  ],
+  "FavoriteItem": "Gemstone",
+  "Passive": "Airborne",
+  "EXPCurve": "Normal",
+  "DexDescription": "A fire dragon Tama.",
+  "Spot": "PeripheralCliffs",
+  "NoShadow": true,
+  "Flying": true
+}

@@ -1,0 +1,75 @@
+{
+  "Element": "Wind",
+  "BaseHP": 9.0,
+  "BaseWeight": 80,
+  "BaseStrength": 1.0,
+  "BaseMind": 1.5,
+  "BaseSpeed": 1.25,
+  "BaseWisdom": 1.0,
+  "Affinity": {
+    "HP": 0.75,
+    "Strength": 0.65,
+    "Magic": 0.95,
+    "Wisdom": 0.35,
+    "Speed": 0.75
+  },
+  "Techs": [
+    {
+      "Tech": "Peck",
+      "Level": 1
+    },
+    {
+      "Tech": "MagicWing",
+      "Level": 2
+    },
+    {
+      "Tech": "Hex",
+      "Level": 4
+    },
+    {
+      "Tech": "Potion",
+      "Level": 7
+    },
+    {
+      "Tech": "MagicWind",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Hexyr",
+      "Level": 10,
+      "Speed": {
+        "min": 20,
+        "max": 999999
+      },
+      "Magic": {
+        "min": -1,
+        "max": 20
+      }
+    },
+    {
+      "Species": "Brewhyr",
+      "Level": 10,
+      "Speed": {
+        "min": -1,
+        "max": 20
+      },
+      "Magic": {
+        "min": 20,
+        "max": 999999
+      }
+    }
+  ],
+  "BaseAncestor": "Hexou",
+  "Diet": "Omnivore",
+  "Class": "Bird",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Skull",
+  "Passive": "None",
+  "EXPCurve": "Normal",
+  "DexDescription": "A hex bird Tama.",
+  "Spot": "PeripheralCliffs"
+}

@@ -1,0 +1,38 @@
+{
+  "Element": "Earth",
+  "BaseHP": 24.0,
+  "BaseWeight": 240,
+  "Affinity": {
+    "HP": 1.2,
+    "Strength": 1.3,
+    "Magic": 0.4,
+    "Wisdom": 0.3,
+    "Speed": 0.5
+  },
+  "Techs": [
+    {
+      "Tech": "HardDrill",
+      "Level": 11
+    },
+    {
+      "Tech": "DynamitePunch",
+      "Level": 13
+    },
+    {
+      "Tech": "GigaDrill",
+      "Level": 16
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Molun",
+  "Diet": "Carnivore",
+  "Class": "Bear",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "RAMSteak",
+  "Passive": "Fracture2",
+  "EXPCurve": "Normal",
+  "DexDescription": "A large mole Tama.",
+  "Spot": ""
+}

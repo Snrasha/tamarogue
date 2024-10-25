@@ -1,0 +1,61 @@
+{
+    "Element": "Machine",
+    "BaseHP": 14.0,
+    "BaseWeight": 90,
+    "Affinity": {
+      "HP": 0.9,
+      "Strength": 1.0,
+      "Magic": 0.7,
+      "Wisdom": 0.5,
+      "Speed": 1.05
+    },
+    "Techs": [
+      {
+        "Tech": "MetalSlice",
+        "Level": 1
+      },
+      {
+        "Tech": "Zap",
+        "Level": 2
+      },
+      {
+        "Tech": "RapidSwim",
+        "Level": 4
+      },
+      {
+        "Tech": "SteelDriver",
+        "Level": 7
+      },
+      {
+        "Tech": "Machinegun",
+        "Level": 10
+      },
+      {
+        "Tech": "SteelTail",
+        "Level": 15
+      },
+      {
+        "Tech": "MysticWave",
+        "Level": 20
+      },
+      {
+        "Tech": "KnightBreaker",
+        "Level": 25
+      }
+    ],
+    "Evolutions": [],
+    "BaseAncestor": "Cardee_5",
+    "Diet": "Omnivore",
+    "Class": "Fish",
+    "Behavior": "Slow",
+    "Drops": [
+      {
+        "Item": "Booster05",
+        "Chance": 0.1
+      }
+    ],
+    "EXPCurve": "Normal",
+    "Passive": "None",
+    "Spot": "ScorchingSands"
+  }
+  

@@ -1,0 +1,51 @@
+{
+  "Element": "Water",
+  "BaseHP": 10.0,
+  "BaseWeight": 45,
+  "Affinity": {
+    "HP": 0.6,
+    "Strength": 0.7,
+    "Magic": 1.2,
+    "Wisdom": 0.4,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "WaterRing",
+      "Level": 10
+    },
+    {
+      "Tech": "Storm",
+      "Level": 12
+    },
+    {
+      "Tech": "MysticWave",
+      "Level": 15
+    },
+    {
+      "Tech": "Purify",
+      "Level": 20
+    },
+    {
+      "Tech": "Hydroglyph",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Rainee",
+  "Diet": "Herbivore",
+  "Class": "Phantasm",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "SpookyDisc",
+      "Chance": 0.3
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "SpookyDisc",
+  "Passive": "Intangible",
+  "EXPCurve": "Normal",
+  "DexDescription": "A raincoat ghost Tama.",
+  "Spot": "Rainlands"
+}

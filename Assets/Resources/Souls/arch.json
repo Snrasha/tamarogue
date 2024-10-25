@@ -1,0 +1,53 @@
+{
+  "Element": "Machine",
+  "BaseHP": 15.0,
+  "BaseWeight": 200,
+  "Affinity": {
+    "HP": 0.95,
+    "Strength": 1.1,
+    "Magic": 1.0,
+    "Wisdom": 0.5,
+    "Speed": 0.95
+  },
+  "Techs": [
+    {
+      "Tech": "Fireball",
+      "Level": 1
+    },
+    {
+      "Tech": "MechanicalArm",
+      "Level": 2
+    },
+    {
+      "Tech": "Zap",
+      "Level": 5
+    },
+    {
+      "Tech": "ShortCircuit",
+      "Level": 10
+    },
+    {
+      "Tech": "DriveBurner",
+      "Level": 15
+    },
+    {
+      "Tech": "PowerGrid2",
+      "Level": 20
+    },
+    {
+      "Tech": "TeslaCannon",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Arch",
+  "Diet": "Omnivore",
+  "Class": "Mechanica",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": ".Arch",
+  "FavoriteItem": "CPUChip",
+  "Passive": "Discharge2",
+  "EXPCurve": "Normal",
+  "Spot": "MtNexus"
+}

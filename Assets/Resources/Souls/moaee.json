@@ -1,0 +1,54 @@
+{
+  "Element": "Earth",
+  "BaseHP": 15.0,
+  "BaseWeight": 150,
+  "Affinity": {
+    "HP": 1.1,
+    "Strength": 0.9,
+    "Magic": 0.6,
+    "Wisdom": 0.8,
+    "Speed": 0.5
+  },
+  "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "RockBash",
+      "Level": 2
+    },
+    {
+      "Tech": "GroundPound",
+      "Level": 4
+    },
+    {
+      "Tech": "StoneStun",
+      "Level": 7
+    },
+    {
+      "Tech": "StoneStomp",
+      "Level": 10
+    },
+    {
+      "Tech": "AncientStone",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Moaee",
+  "Diet": "Metalvore",
+  "Class": "Mechanica",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "Rock",
+      "Chance": 0.2
+    }
+  ],
+  "FavoriteItem": "Rock",
+  "Passive": "Stoic",
+  "EXPCurve": "Normal",
+  "Spot": "MemoryMeadow"
+}

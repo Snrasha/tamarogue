@@ -1,0 +1,54 @@
+{
+  "Element": "Virtual",
+  "BaseHP": 25.0,
+  "BaseWeight": 250,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.0,
+    "Magic": 1.0,
+    "Wisdom": 1.0,
+    "Speed": 1.0
+  },
+  "Techs": [
+    {
+      "Tech": "LifeSequence",
+      "Level": 1
+    },
+    {
+      "Tech": "SolarDrive",
+      "Level": 1
+    },
+    {
+      "Tech": "CosmicOrder",
+      "Level": 1
+    },
+    {
+      "Tech": "LifeDrain",
+      "Level": 1
+    },
+    {
+      "Tech": "NullDrain",
+      "Level": 1
+    },
+    {
+      "Tech": "DarknessSword",
+      "Level": 1
+    },
+    {
+      "Tech": "StarBeam",
+      "Level": 1
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Extaeriel",
+  "Diet": "Omnivore",
+  "Class": "Phantasm",
+  "Behavior": "Stationary",
+  "Drops": [
+  ],
+  "Name": null,
+  "FavoriteItem": "HiddenChip",
+  "Passive": "DNAArchive",
+  "EXPCurve": "Steep",
+  "Spot": "SegmentIsland"
+}

@@ -1,3 +1,20 @@
+Unity Development:
+
+Input System: We cannot put any control scheme, otherwise, the UI do not work well with the player input.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Roguelikedev 2019
 ------------------------
 
@@ -24,7 +41,7 @@ A procedurally-generated Roguelike game in C# and Unity
 
 ![Map Overview](https://tilcode.blog/wp-content/uploads/2019/07/190701_inverted_messagelog.gif)
 
-* Close combat 
+* Close combat
 
 ![Map Overview](https://tilcode.blog/wp-content/uploads/2019/06/190623_roguelikedev_enemies_bump_attack.gif)
 

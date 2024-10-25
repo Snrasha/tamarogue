@@ -1,0 +1,55 @@
+{
+  "Element": "Earth",
+  "BaseHP": 18.0,
+  "BaseWeight": 160,
+  "Affinity": {
+    "HP": 1.15,
+    "Strength": 1.0,
+    "Magic": 0.95,
+    "Wisdom": 0.6,
+    "Speed": 0.55
+  },
+  "Techs": [
+    {
+      "Tech": "EarthTail",
+      "Level": 11
+    },
+    {
+      "Tech": "CrystalBlast",
+      "Level": 13
+    },
+    {
+      "Tech": "MoonEarthBeam",
+      "Level": 16
+    },
+    {
+      "Tech": "SteelTail",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Kobolith",
+      "Level": 20,
+      "Magic": {
+        "min": 50,
+        "max": 9999
+      }
+    },
+    {
+      "Species": "Kobalith",
+      "Level": 20
+    }
+  ],
+  "BaseAncestor": "Kobou",
+  "Diet": "Herbivore",
+  "Class": "Lizard",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Carapace",
+  "Passive": "Hardening2",
+  "EXPCurve": "Normal",
+  "DexDescription": "An earth kobold Tama.",
+  "Spot": ""
+}

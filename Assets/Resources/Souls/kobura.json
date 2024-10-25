@@ -1,0 +1,57 @@
+{
+  "Element": "Earth",
+  "BaseHP": 12.0,
+  "BaseWeight": 130,
+  "Affinity": {
+      "HP": 0.9,
+      "Strength": 1.1,
+      "Magic": 0.6,
+      "Wisdom": 0.3,
+      "Speed": 0.9
+    },
+    "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "RockBash",
+      "Level": 2
+    },
+    {
+      "Tech": "DeadlyBite",
+      "Level": 4
+    },
+    {
+      "Tech": "Constriction",
+      "Level": 7
+    },
+    {
+      "Tech": "EarthTail",
+      "Level": 10
+    },
+    {
+      "Tech": "SandDive",
+      "Level": 12
+    },
+    {
+      "Tech": "PrimalFear",
+      "Level": 15
+    },
+    {
+      "Tech": "VenomousBite",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Kobura",
+  "Diet": "Carnivore",
+  "Class": "Snake",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "WindFlute",
+  "Passive": "Venom",
+  "EXPCurve": "Normal",
+  "Spot": "ScorchingSands"
+}

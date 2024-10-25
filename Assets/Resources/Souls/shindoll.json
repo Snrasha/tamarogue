@@ -1,0 +1,37 @@
+{
+    "Element": "DarkEarth",
+    "BaseHP": 14.0,
+    "BaseWeight": 180,
+    "Affinity": {
+      "HP": 1.0,
+      "Strength": 1.1,
+      "Magic": 0.9,
+      "Wisdom": 0.5,
+      "Speed": 0.4
+    },
+    "Techs": [
+      {
+        "Tech": "BlockBash",
+        "Level": 13
+      },
+      {
+        "Tech": "HypnoStone",
+        "Level": 16
+      }
+    ],
+    "Evolutions": [
+    ],
+    "BaseAncestor": "Dolu",
+    "Diet": "Metalvore",
+    "Class": "Mechanica",
+    "Behavior": "Slow",
+    "Drops": [
+    ],
+    "Name": null,
+    "FavoriteItem": "RuneStone",
+    "Passive": "RunicBody2",
+    "EXPCurve": "Steep",
+    "DexDescription": "An earthen doll Tama.",
+    "Spot": "ProtocolForest"
+  }
+  

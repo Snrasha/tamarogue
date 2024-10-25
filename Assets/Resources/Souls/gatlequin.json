@@ -1,0 +1,27 @@
+{
+    "Element": "Water",
+    "BaseWeight": 225,
+    "Affinity": {
+      "HP": 1.25,
+      "Strength": 1.15,
+      "Magic": 0.65,
+      "Wisdom": 0.5,
+      "Speed": 0.45
+    },
+    "Techs": [
+      {
+        "Tech": "HeavyBash",
+        "Level": 21
+      }
+    ],
+    "Evolutions": [],
+    "BaseAncestor": "Gatou",
+    "Diet": "Omnivore",
+    "Class": "Amphibian",
+    "Behavior": "Slow",
+    "Drops": [],
+    "EXPCurve": "Steep",
+    "Spot": "MistyMarsh",
+    "Passive": "Bouncer"
+  }
+  

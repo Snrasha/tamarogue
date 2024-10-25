@@ -1,0 +1,56 @@
+{
+  "Element": "Native",
+  "BaseHP": 10.0,
+  "BaseWeight": 80,
+  "Affinity": {
+    "HP": 0.9,
+    "Strength": 1.0,
+    "Magic": 0.6,
+    "Wisdom": 0.4,
+    "Speed": 0.85
+  },
+  "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "Web",
+      "Level": 2
+    },
+    {
+      "Tech": "DeadlyBite",
+      "Level": 4
+    },
+    {
+      "Tech": "Snare",
+      "Level": 7
+    },
+    {
+      "Tech": "FiberWeb",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Toxica",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Toxee",
+  "Diet": "Carnivore",
+  "Class": "Insect",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "RedWhistle",
+      "Chance": 0.1
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "RedWhistle",
+  "Passive": "Venom",
+  "EXPCurve": "Normal",
+  "DexDescription": "A cute spider Tama.",
+  "Spot": "BinaryForest"
+}

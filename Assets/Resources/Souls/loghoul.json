@@ -1,0 +1,57 @@
+{
+    "Element": "DarkNative",
+    "BaseHP": 8.0,
+    "BaseWeight": 80,
+    "Affinity": {
+        "HP": 0.8,
+        "Strength": 0.6,
+        "Magic": 0.9,
+        "Wisdom": 0.4,
+        "Speed": 0.5
+      },
+      "Techs": [
+      {
+        "Tech": "Bash",
+        "Level": 1
+      },
+      {
+        "Tech": "Claw",
+        "Level": 3
+      },
+      {
+        "Tech": "GhoulClaw",
+        "Level": 5
+      },
+      {
+        "Tech": "WoodPellet",
+        "Level": 8
+      },
+      {
+        "Tech": "DarkShot",
+        "Level": 10
+      },
+      {
+        "Tech": "Truncate",
+        "Level": 13
+      }
+    ],
+    "Evolutions": [
+    ],
+    "BaseAncestor": "Loghoul",
+    "Diet": "Herbivore",
+    "Class": "Phantasm",
+    "Behavior": "Slow",
+    "Drops": [
+      {
+        "Item": "Stick",
+        "Chance": 0.25
+      }
+    ],
+    "Name": null,
+    "FavoriteItem": "Stick",
+    "Passive": "Intangible",
+    "EXPCurve": "Normal",
+    "DexDescription": "A tree trunk ghost Tama.",
+    "Spot": "ProtocolForest"
+  }
+  

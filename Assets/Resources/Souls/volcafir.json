@@ -1,0 +1,38 @@
+{
+  "Element": "Fire",
+  "BaseHP": 25.0,
+  "BaseWeight": 300,
+  "Affinity": {
+      "HP": 1.05,
+      "Strength": 1.35,
+      "Magic": 0.25,
+      "Wisdom": 0.25,
+      "Speed": 0.5
+    },
+    "Techs": [
+    {
+      "Tech": "BrimstoneSalvo",
+      "Level": 20
+    },
+    {
+      "Tech": "ScorchedEarth",
+      "Level": 22
+    },
+    {
+      "Tech": "Volcano",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Salafir",
+  "Diet": "Metalvore",
+  "Class": "Lizard",
+  "Behavior": "SlowAggressive",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "MagmaRock",
+  "Passive": "Wildfire2",
+  "EXPCurve": "Normal",
+  "DexDescription": "A volcanic lizard Tama.",
+  "Spot": ""
+}

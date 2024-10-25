@@ -1,0 +1,38 @@
+{
+    "Element": "Machine",
+    "BaseHP": 8.0,
+    "BaseWeight": 80,
+    "Affinity": {
+      "HP": 0.85,
+      "Strength": 1.05,
+      "Magic": 0.35,
+      "Wisdom": 0.65,
+      "Speed": 1.15
+    },
+    "Techs": [
+      {
+        "Tech": "SteelPiercer",
+        "Level": 12
+      },
+      {
+        "Tech": "HornetStrike",
+        "Level": 15
+      },
+      {
+        "Tech": "NinjaStrike",
+        "Level": 20
+      }
+    ],
+    "Evolutions": [],
+    "BaseAncestor": "Dragonee",
+    "Diet": "Herbivore",
+    "Class": "Insect",
+    "Behavior": "Slow",
+    "Drops": [],
+    "FavoriteItem": "Katana",
+    "Passive": "Ninja",
+    "EXPCurve": "Normal",
+    "DexDescription": "A hornet ninja Tama.",
+    "Spot": ""
+  }
+  

@@ -1,0 +1,2 @@
+Pour le TP regen, regen uniquement à chaque passage de floor. Pour prévenir de spam
+

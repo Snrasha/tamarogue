@@ -1,0 +1,53 @@
+{
+  "Element": "Earth",
+  "BaseHP": 11.0,
+  "BaseWeight": 125,
+  "Affinity": {
+      "HP": 0.9,
+      "Strength": 0.8,
+      "Magic": 0.5,
+      "Wisdom": 0.2,
+      "Speed": 0.6
+    },
+    "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "Zap",
+      "Level": 2
+    },
+    {
+      "Tech": "GroundPound",
+      "Level": 4
+    },
+    {
+      "Tech": "RushAttack",
+      "Level": 7
+    },
+    {
+      "Tech": "StoneStomp",
+      "Level": 10
+    },
+    {
+      "Tech": "ChargedRocks",
+      "Level": 13
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Elecow",
+      "Level": 15
+    }
+  ],
+  "BaseAncestor": "Elecalf",
+  "Diet": "Herbivore",
+  "Class": "Bear",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "FavoriteItem": "Carrot",
+  "Passive": "None",
+  "EXPCurve": "Normal",
+  "Spot": "MemoryMeadow"
+}

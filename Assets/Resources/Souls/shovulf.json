@@ -1,0 +1,51 @@
+{
+    "Element": "Ice",
+    "BaseHP": 12.0,
+    "BaseWeight": 110,
+    "Affinity": {
+      "HP": 1.0,
+      "Strength": 0.95,
+      "Magic": 0.75,
+      "Wisdom": 0.65,
+      "Speed": 0.8
+    },
+    "Techs": [
+      {
+        "Tech": "ShovelSnow",
+        "Level": 10
+      },
+      {
+        "Tech": "SnowCannon",
+        "Level": 12
+      },
+      {
+        "Tech": "IceShower",
+        "Level": 15
+      },
+      {
+        "Tech": "SnowStorm",
+        "Level": 18
+      }
+    ],
+    "Evolutions": [
+      {
+        "Species": "Plowulf",
+        "Level": 20
+      }
+    ],
+    "BaseAncestor": "Wolfee",
+    "Diet": "Omnivore",
+    "Class": "Wolf",
+    "Behavior": "Stationary",
+    "Drops": [
+      {
+        "Item": "ToyShovel",
+        "Chance": 0.25
+      }
+    ],
+    "FavoriteItem": "ToyShovel",
+    "Passive": "Snowpile",
+    "EXPCurve": "Normal",
+    "Spot": "Snowlands"
+  }
+  

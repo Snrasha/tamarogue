@@ -1,0 +1,55 @@
+{
+    "Element": "DarkWater",
+    "BaseHP": 15.0,
+    "BaseWeight": 140,
+    "Affinity": {
+        "HP": 1.07,
+        "Strength": 0.77,
+        "Magic": 1.07,
+        "Wisdom": 0.77,
+        "Speed": 0.77
+      },
+      "Techs": [
+      {
+        "Tech": "LuckyPunch",
+        "Level": 1
+      },
+      {
+        "Tech": "Waterball",
+        "Level": 2
+      },
+      {
+        "Tech": "WaterSplash",
+        "Level": 5
+      },
+      {
+        "Tech": "WheelOfFate",
+        "Level": 10
+      },
+      {
+        "Tech": "MysticWave",
+        "Level": 15
+      },
+      {
+        "Tech": "AllOnRed",
+        "Level": 20
+      },
+      {
+        "Tech": "Jackpot",
+        "Level": 25
+      }
+    ],
+    "Evolutions": [
+    ],
+    "BaseAncestor": "Octopot",
+    "Diet": "Omnivore",
+    "Class": "Amphibian",
+    "Behavior": "Aggressive",
+    "Drops": [],
+    "Name": null,
+    "FavoriteItem": "RandomMemory",
+    "Passive": "Lucky7",
+    "EXPCurve": "Normal",
+    "Spot": "ToyCastle"
+  }
+  

@@ -1,0 +1,33 @@
+{
+  "Element": "Earth",
+  "BaseHP": 14.0,
+  "BaseWeight": 185,
+  "Affinity": {
+      "HP": 1.0,
+      "Strength": 0.9,
+      "Magic": 0.5,
+      "Wisdom": 0.2,
+      "Speed": 0.6
+    },
+    "Techs": [
+    {
+      "Tech": "Quake",
+      "Level": 16
+    },
+    {
+      "Tech": "Stompede",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Elecalf",
+  "Diet": "Herbivore",
+  "Class": "Bear",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "FavoriteItem": "Carrot",
+  "Passive": "Supercharge",
+  "EXPCurve": "Normal",
+  "Spot": "MemoryMeadow"
+}

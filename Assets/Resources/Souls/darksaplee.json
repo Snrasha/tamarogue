@@ -1,0 +1,56 @@
+{
+  "Element": "DarkNative",
+  "BaseHP": 6.0,
+  "BaseWeight": 60,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 0.4,
+    "Magic": 0.8,
+    "Wisdom": 0.4,
+    "Speed": 0.6
+  },
+  "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "SeedSap",
+      "Level": 3
+    },
+    {
+      "Tech": "StoneShield",
+      "Level": 5
+    },
+    {
+      "Tech": "PiercingThorns",
+      "Level": 8
+    },
+    {
+      "Tech": "LifeDrain",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "DarkNeiree",
+      "Level": 12
+    }
+  ],
+  "BaseAncestor": "DarkSaplee",
+  "Diet": "Herbivore",
+  "Class": "Plant",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "DarkLeaf",
+      "Chance": 0.2
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "DarkLeaf",
+  "Passive": "Sapper",
+  "EXPCurve": "Easy",
+  "DexDescription": "A baby acorn Tama.",
+  "Spot": "ProtocolForest"
+}

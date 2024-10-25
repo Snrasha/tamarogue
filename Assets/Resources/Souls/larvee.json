@@ -1,0 +1,43 @@
+{
+  "Element": "Native",
+  "BaseHP": 8.0,
+  "BaseWeight": 50,
+  "Affinity": {
+    "HP": 0.8,
+    "Strength": 0.4,
+    "Magic": 0.3,
+    "Wisdom": 0.2,
+    "Speed": 0.4
+  },
+  "Techs": [
+    {
+      "Tech": "Cocoon",
+      "Level": 1
+    },
+    {
+      "Tech": "Bash",
+      "Level": 2
+    },
+    {
+      "Tech": "Web",
+      "Level": 4
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Beebee",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Larvee",
+  "Diet": "Herbivore",
+  "Class": "Insect",
+  "Behavior": "Slow",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Leaf",
+  "Passive": "None",
+  "EXPCurve": "Easy",
+  "DexDescription": "A bee larva Tama.",
+  "Spot": ""
+}

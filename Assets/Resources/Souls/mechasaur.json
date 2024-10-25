@@ -1,0 +1,38 @@
+{
+  "Element": "Machine",
+  "BaseHP": 15.0,
+  "BaseWeight": 180,
+  "Affinity": {
+    "HP": 1.1,
+    "Strength": 1.3,
+    "Magic": 0.3,
+    "Wisdom": 0.2,
+    "Speed": 0.7
+  },
+  "Techs": [
+    {
+      "Tech": "RushAttack",
+      "Level": 11
+    },
+    {
+      "Tech": "SteelTail",
+      "Level": 12
+    },
+    {
+      "Tech": "MechannonBlast",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Clawee",
+  "Diet": "Metalvore",
+  "Class": "Lizard",
+  "Behavior": "Aggressive",
+  "Drops": [],
+  "FavoriteItem": "Bone",
+  "Passive": "Metalhead",
+  "EXPCurve": "Steep",
+  "DexDescription": "A mech dinosaur Tama.",
+  "Spot": "PeripheralCliffs"
+}

@@ -1,0 +1,53 @@
+{
+  "Element": "Fire",
+  "BaseHP": 9.0,
+  "Affinity": {
+    "HP": 0.7,
+    "Strength": 0.9,
+    "Magic": 0.7,
+    "Wisdom": 0.3,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "TinyWing",
+      "Level": 1
+    },
+    {
+      "Tech": "Fireball",
+      "Level": 2
+    },
+    {
+      "Tech": "BlueFlame",
+      "Level": 4
+    },
+    {
+      "Tech": "FlameTail",
+      "Level": 7
+    },
+    {
+      "Tech": "DragonFire",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Ignafir",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Ignee",
+  "Diet": "Carnivore",
+  "Class": "Lizard",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "FavoriteItem": "Gemstone",
+  "Passive": "None",
+  "EXPCurve": "Normal",
+  "DexDescription": "A baby dragon Tama.",
+  "Spot": "Peripheral Cliffs"
+}

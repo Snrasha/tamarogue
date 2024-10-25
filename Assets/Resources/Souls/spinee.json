@@ -1,0 +1,59 @@
+{
+  "Element": "Native",
+  "BaseHP": 10.0,
+  "BaseWeight": 90,
+  "Affinity": {
+    "HP": 0.9,
+    "Strength": 0.9,
+    "Magic": 0.5,
+    "Wisdom": 0.3,
+    "Speed": 0.7
+  },
+  "Techs": [
+    {
+      "Tech": "NativeKick",
+      "Level": 1
+    },
+    {
+      "Tech": "SeedSap",
+      "Level": 2
+    },
+    {
+      "Tech": "PiercingSpike",
+      "Level": 5
+    },
+    {
+      "Tech": "MudBullet",
+      "Level": 9
+    },
+    {
+      "Tech": "SpikySpinner",
+      "Level": 12
+    },
+    {
+      "Tech": "PotCannon",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [
+    {
+        "Species": "Spinask",
+        "Level": 12
+    }
+  ],
+  "BaseAncestor": "Spinee",
+  "Diet": "Herbivore",
+  "Class": "Plant",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "SharpSpine",
+      "Chance": 0.3
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "SharpSpine",
+  "Passive": "Spiky",
+  "EXPCurve": "Normal",
+  "Spot": "ScorchingSands"
+}

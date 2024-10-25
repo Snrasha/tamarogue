@@ -1,0 +1,55 @@
+{
+  "Element": "Native",
+  "BaseHP": 10.0,
+  "BaseWeight": 100,
+  "Affinity": {
+    "HP": 0.75,
+    "Strength": 1.0,
+    "Magic": 0.65,
+    "Wisdom": 0.4,
+    "Speed": 0.85
+  },
+  "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "Claw",
+      "Level": 2
+    },
+    {
+      "Tech": "Return",
+      "Level": 5
+    },
+    {
+      "Tech": "NutBomb",
+      "Level": 7
+    },
+    {
+      "Tech": "Snare",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Tanukee",
+  "Diet": "Omnivore",
+  "Class": "Bear",
+  "Behavior": "Aggressive",
+  "Drops": [
+    {
+      "Item": "Honey",
+      "Chance": 0.25
+    },
+    {
+      "Item": "Gunpowder",
+      "Chance": 0.1
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Honey",
+  "Passive": "Snatch",
+  "EXPCurve": "Steep",
+  "DexDescription": "A sleepy tanuki Tama.",
+  "Spot": "BinaryForest"
+}

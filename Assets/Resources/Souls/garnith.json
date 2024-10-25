@@ -1,0 +1,38 @@
+{
+  "Element": "Earth",
+  "BaseHP": 15.0,
+  "BaseWeight": 125,
+  "Affinity": {
+      "HP": 1.0,
+      "Strength": 0.7,
+      "Magic": 1.2,
+      "Wisdom": 0.5,
+      "Speed": 0.8
+    },
+    "Techs": [
+    {
+      "Tech": "DiamondCutter",
+      "Level": 12
+    },
+    {
+      "Tech": "RunesOfRegen",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Karlite",
+  "Diet": "Metalvore",
+  "Class": "Lizard",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "Gemstone",
+      "Chance": 0.2
+    }
+  ],
+  "FavoriteItem": "Gemstone",
+  "Passive": "RareRune",
+  "EXPCurve": "Normal",
+  "DexDescription": "A crystal dragon Tama.",
+  "Spot": "PeripheralCliffs"
+}

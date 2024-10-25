@@ -1,0 +1,54 @@
+{
+  "Element": "Machine",
+  "BaseHP": 9.0,
+  "BaseWeight": 45,
+  "Affinity": {
+    "HP": 0.8,
+    "Strength": 1.2,
+    "Magic": 0.6,
+    "Wisdom": 0.3,
+    "Speed": 1.0
+  },
+  "Techs": [
+    {
+      "Tech": "Slash",
+      "Level": 1
+    },
+    {
+      "Tech": "MetalSlice",
+      "Level": 2
+    },
+    {
+      "Tech": "Fireball",
+      "Level": 5
+    },
+    {
+      "Tech": "SilverClaw",
+      "Level": 10
+    },
+    {
+      "Tech": "BlitzStrike",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Nanake",
+  "Diet": "Metalvore",
+  "Class": "Mechanica",
+  "Behavior": "Stationary",
+  "Drops": [
+    {
+      "Item": "StrawHat",
+      "Chance": 0.3
+    },
+    {
+      "Item": "MechClaw",
+      "Chance": 0.03
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "StrawHat",
+  "Passive": "Blitz",
+  "EXPCurve": "Normal",
+  "Spot": ""
+}

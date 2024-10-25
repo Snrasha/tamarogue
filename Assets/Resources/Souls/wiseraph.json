@@ -1,0 +1,43 @@
+{
+    "Element": "DarkFire",
+    "BaseHP": 13.0,
+    "BaseWeight": 100,
+    "Affinity": {
+        "HP": 1.05,
+        "Strength": 0.85,
+        "Magic": 1.15,
+        "Wisdom": 0.75,
+        "Speed": 0.7
+      },
+      "Techs": [
+      {
+        "Tech": "EvilFlame",
+        "Level": 1
+      },
+      {
+        "Tech": "DarkInferno",
+        "Level": 20
+      },
+      {
+        "Tech": "Hellfire",
+        "Level": 22
+      }
+    ],
+    "Evolutions": [
+    ],
+    "BaseAncestor": "Wispaur",
+    "Diet": "Omnivore",
+    "Class": "Phantasm",
+    "Behavior": "Slow",
+    "Drops": [
+      {
+        "Item": "Candle",
+        "Chance": 0.25
+      }
+    ],
+    "FavoriteItem": "Candle",
+    "Passive": "DarkAngel",
+    "EXPCurve": "Normal",
+    "Spot": "GreiwolfMansion"
+  }
+  

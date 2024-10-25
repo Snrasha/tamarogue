@@ -1,0 +1,55 @@
+{
+    "Element": "Fire",
+    "BaseHP": 8.0,
+    "BaseWeight": 60,
+    "Affinity": {
+      "HP": 0.8,
+      "Strength": 0.6,
+      "Magic": 0.9,
+      "Wisdom": 0.3,
+      "Speed": 0.8
+    },
+    "Techs": [
+      {
+        "Tech": "Bash",
+        "Level": 1
+      },
+      {
+        "Tech": "Fireball",
+        "Level": 2
+      },
+      {
+        "Tech": "BlueFlame",
+        "Level": 4
+      },
+      {
+        "Tech": "FlareBlast",
+        "Level": 7
+      },
+      {
+        "Tech": "AirStrike",
+        "Level": 10
+      }
+    ],
+    "Evolutions": [
+      {
+        "Species": "Fyuree",
+        "Level": 12
+      }
+    ],
+    "BaseAncestor": "Fyree",
+    "Diet": "Carnivore",
+    "Class": "Fairy",
+    "Behavior": "Patrol",
+    "Drops": [
+      {
+        "Item": "FairyDust",
+        "Chance": 0.2
+      }
+    ],
+    "FavoriteItem": "FairyDust",
+    "Passive": "None",
+    "EXPCurve": "Easy",
+    "Spot": "ProtocolForest"
+  }
+  

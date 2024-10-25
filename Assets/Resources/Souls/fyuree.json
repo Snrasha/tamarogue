@@ -1,0 +1,47 @@
+{
+    "Element": "Fire",
+    "BaseHP": 8.0,
+    "BaseWeight": 60,
+    "Affinity": {
+      "HP": 0.9,
+      "Strength": 0.8,
+      "Magic": 1.1,
+      "Wisdom": 0.4,
+      "Speed": 0.9
+    },
+    "Techs": [
+      {
+        "Tech": "FairyFire",
+        "Level": 13
+      },
+      {
+        "Tech": "FlamingDive",
+        "Level": 16
+      },
+      {
+        "Tech": "Inferno",
+        "Level": 20
+      }
+    ],
+    "Evolutions": [
+    ],
+    "BaseAncestor": "Fyree",
+    "Diet": "Carnivore",
+    "Class": "Fairy",
+    "Behavior": "Stationary",
+    "Drops": [
+      {
+        "Item": "FairyDust",
+        "Chance": 0.3
+      },
+      {
+        "Item": "RareFairyDust",
+        "Chance": 0.05
+      }
+    ],
+    "FavoriteItem": "FairyDust",
+    "Passive": "Fury",
+    "EXPCurve": "Normal",
+    "Spot": "ProtocolForest"
+  }
+  

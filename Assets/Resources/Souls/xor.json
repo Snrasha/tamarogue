@@ -1,0 +1,40 @@
+{
+  "Element": "Machine",
+  "BaseHP": 18.0,
+  "BaseWeight": 190,
+  "Affinity": {
+    "HP": 1.2,
+    "Strength": 1.3,
+    "Magic": 1.0,
+    "Wisdom": 1.0,
+    "Speed": 1.2
+  },
+  "Techs": [
+    {
+      "Tech": "SilverClaw",
+      "Level": 1
+    },
+    {
+      "Tech": "MechanicalArm",
+      "Level": 2
+    },
+    {
+      "Tech": "Zap",
+      "Level": 3
+    },
+    {
+      "Tech": "ShortCircuit",
+      "Level": 4
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Xor",
+  "Diet": "Omnivore",
+  "Class": "Mechanica",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": ".Xor",
+  "FavoriteItem": "Fiber",
+  "Passive": "None",
+  "EXPCurve": "Normal"
+}

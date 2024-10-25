@@ -1,0 +1,53 @@
+{
+  "Element": "Null",
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.0,
+    "Magic": 1.0,
+    "Wisdom": 0.5,
+    "Speed": 1.0
+  },
+  "Techs": [
+    {
+      "Tech": "NullDrain",
+      "Level": 1
+    },
+    {
+      "Tech": "Corruption",
+      "Level": 1
+    },
+    {
+      "Tech": "LifeDrain",
+      "Level": 1
+    },
+    {
+      "Tech": "Truncate",
+      "Level": 1
+    },
+    {
+      "Tech": "MechanicalArm",
+      "Level": 1
+    },
+    {
+      "Tech": "GhostSpark",
+      "Level": 1
+    },
+    {
+      "Tech": "DarkInferno",
+      "Level": 1
+    }
+  ],
+  "BaseAncestor": "DarkAsm",
+  "Diet": "Omnivore",
+  "Class": "Phantasm",
+  "Passive": "Reinit",
+  "EXPCurve": "Steep",
+  "Behavior": "Aggressive",
+  "Drops": [
+    {
+      "Item": "DarkCode",
+      "Chance": 0.1
+    }
+  ],
+  "IsAsm": true
+}

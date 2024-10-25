@@ -1,0 +1,61 @@
+{
+    "Element": "Water",
+    "BaseHP": 12.0,
+    "BaseWeight": 90,
+    "Affinity": {
+      "HP": 0.9,
+      "Strength": 1.0,
+      "Magic": 0.5,
+      "Wisdom": 0.5,
+      "Speed": 1.05
+    },
+    "Techs": [
+      {
+        "Tech": "Bite",
+        "Level": 1
+      },
+      {
+        "Tech": "BubbleSort",
+        "Level": 2
+      },
+      {
+        "Tech": "RapidSwim",
+        "Level": 4
+      },
+      {
+        "Tech": "BubbleBarrage",
+        "Level": 7
+      },
+      {
+        "Tech": "WaterSpear",
+        "Level": 10
+      },
+      {
+        "Tech": "HeavyRain",
+        "Level": 15
+      },
+      {
+        "Tech": "MysticWave",
+        "Level": 20
+      },
+      {
+        "Tech": "DeepDiveStrike",
+        "Level": 25
+      }
+    ],
+    "Evolutions": [],
+    "BaseAncestor": "Cardee_2",
+    "Diet": "Omnivore",
+    "Class": "Fish",
+    "Behavior": "Slow",
+    "Drops": [
+      {
+        "Item": "Booster02",
+        "Chance": 0.3
+      }
+    ],
+    "EXPCurve": "Normal",
+    "Passive": "None",
+    "Spot": "Rainlands"
+  }
+  

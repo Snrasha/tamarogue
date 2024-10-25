@@ -1,0 +1,54 @@
+{
+  "Element": "DarkMachine",
+  "BaseHP": 25.0,
+  "BaseWeight": 500,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.1,
+    "Magic": 1.0,
+    "Wisdom": 1.0,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "MissileSalvo",
+      "Level": 1
+    },
+    {
+      "Tech": "WarheadBlast",
+      "Level": 1
+    },
+    {
+      "Tech": "ArmorBuster",
+      "Level": 1
+    },
+    {
+      "Tech": "Gigacrush",
+      "Level": 1
+    },
+    {
+      "Tech": "Armageddon",
+      "Level": 1
+    },
+    {
+      "Tech": "HeavyBash",
+      "Level": 1
+    },
+    {
+      "Tech": "Machinegun",
+      "Level": 1
+    }
+  ],
+  "Evolutions": [],
+  "BaseAncestor": "Bitcrusher",
+  "Diet": "Omnivore",
+  "Class": "Mechanica",
+  "Behavior": "Stationary",
+  "Drops": [
+  ],
+  "Name": null,
+  "FavoriteItem": "MechParts",
+  "Passive": "Ultramech",
+  "EXPCurve": "Steep",
+  "Spot": "InfinityNetwork"
+}

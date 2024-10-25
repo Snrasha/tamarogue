@@ -1,0 +1,42 @@
+{
+  "Element": "DarkElec",
+  "BaseHP": 15.0,
+  "BaseWeight": 125,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 0.7,
+    "Magic": 1.0,
+    "Wisdom": 0.2,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "DirectCurrent",
+      "Level": 12
+    },
+    {
+      "Tech": "MysticWave",
+      "Level": 15
+    },
+    {
+      "Tech": "ThunderCoil",
+      "Level": 20
+    },
+    {
+      "Tech": "Denhakai",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Eelee",
+  "Diet": "Omnivore",
+  "Class": "Fish",
+  "Behavior": "Aggressive",
+  "Drops": [],
+  "EXPCurve": "Normal",
+  "DexDescription": "An eerie eel Tama.",
+  "Passive": "Capacitor",
+  "FavoriteItem": "Battery",
+  "Spot": "MistyMarsh"
+}

@@ -1,0 +1,30 @@
+{
+  "Element": "Water",
+  "BaseHP": 20.0,
+  "BaseWeight": 200,
+  "Affinity": {
+    "HP": 1.3,
+    "Strength": 1.2,
+    "Magic": 1.0,
+    "Wisdom": 0.4,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "SeaSplitStrike",
+      "Level": 22
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Taple",
+  "Diet": "Omnivore",
+  "Class": "Amphibian",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "ZipFly",
+  "Passive": "Bouncer",
+  "EXPCurve": "Normal",
+  "Spot": "RainCity"
+}

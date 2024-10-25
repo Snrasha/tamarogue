@@ -1,0 +1,59 @@
+{
+  "Element": "DarkIce",
+  "BaseHP": 13.0,
+  "BaseWeight": 100,
+  "Affinity": {
+    "HP": 1.0,
+    "Strength": 1.0,
+    "Magic": 1.05,
+    "Wisdom": 0.5,
+    "Speed": 0.75
+  },
+  "Techs": [
+    {
+      "Tech": "Snowball",
+      "Level": 1
+    },
+    {
+      "Tech": "ColdSpike",
+      "Level": 2
+    },
+    {
+      "Tech": "PiercingIce",
+      "Level": 5
+    },
+    {
+      "Tech": "WaterSpear",
+      "Level": 10
+    },
+    {
+      "Tech": "IciclePuncture",
+      "Level": 12
+    },
+    {
+      "Tech": "Sacrifice",
+      "Level": 15
+    },
+    {
+      "Tech": "DeathFrost",
+      "Level": 20
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Yukii",
+  "Diet": "Omnivore",
+  "Class": "Phantasm",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "SnowDrop",
+      "Chance": 0.3
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "SnowDrop",
+  "Passive": "Intangible",
+  "EXPCurve": "Normal",
+  "Spot": "RainCity"
+}

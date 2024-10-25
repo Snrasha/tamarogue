@@ -1,0 +1,63 @@
+{
+  "Element": "Null",
+  "BaseHP": 15.0,
+  "BaseWeight": 80,
+  "Affinity": {
+    "HP": 0.6,
+    "Strength": 0.7,
+    "Magic": 1.0,
+    "Wisdom": 0.3,
+    "Speed": 0.8
+  },
+  "Techs": [
+    {
+      "Tech": "Bite",
+      "Level": 1
+    },
+    {
+      "Tech": "EarthKick",
+      "Level": 2
+    },
+    {
+      "Tech": "NullDrain",
+      "Level": 4
+    },
+    {
+      "Tech": "GroundPound",
+      "Level": 7
+    },
+    {
+      "Tech": "RockRain",
+      "Level": 10
+    },
+    {
+      "Tech": "TailSwipe",
+      "Level": 12
+    },
+    {
+      "Tech": "DarkShot",
+      "Level": 15
+    },
+    {
+      "Tech": "Corruption",
+      "Level": 21
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Anurot",
+      "Level": 20
+    }
+  ],
+  "BaseAncestor": "Rot",
+  "Diet": "Carnivore",
+  "Class": "Wolf",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Bone",
+  "Passive": "Nervous",
+  "EXPCurve": "Easy",
+  "DexDescription": "",
+  "Spot": "ScorchingSands"
+}

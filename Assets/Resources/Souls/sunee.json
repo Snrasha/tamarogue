@@ -1,0 +1,55 @@
+{
+  "Element": "Fire",
+  "BaseHP": 9.0,
+  "BaseWeight": 60,
+  "Affinity": {
+    "HP": 0.8,
+    "Strength": 0.5,
+    "Magic": 0.9,
+    "Wisdom": 0.3,
+    "Speed": 0.7
+  },
+  "Techs": [
+    {
+      "Tech": "TinyFlame",
+      "Level": 1
+    },
+    {
+      "Tech": "Fireball",
+      "Level": 2
+    },
+    {
+      "Tech": "Burndown",
+      "Level": 5
+    },
+    {
+      "Tech": "FlareBlast",
+      "Level": 10
+    },
+    {
+      "Tech": "SolarWind",
+      "Level": 15
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Flarle",
+      "Level": 16
+    }
+  ],
+  "BaseAncestor": "Sunee",
+  "Diet": "Metalvore",
+  "Class": "Fairy",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "ScorchedRock",
+      "Chance": 0.25
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "ScorchedRock",
+  "Passive": "Solar",
+  "EXPCurve": "Normal",
+  "Spot": "Snowlands"
+}

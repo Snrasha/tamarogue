@@ -1,0 +1,58 @@
+{
+  "Element": "Neutral",
+  "BaseHP": 15.0,
+  "BaseWeight": 100,
+  "Affinity": {
+      "HP": 1.05,
+      "Strength": 0.85,
+      "Magic": 1.05,
+      "Wisdom": 0.75,
+      "Speed": 0.65
+    },
+    "Techs": [
+    {
+      "Tech": "TinyBlock",
+      "Level": 1
+    },
+    {
+      "Tech": "RecoveryBlock",
+      "Level": 2
+    },
+    {
+      "Tech": "WaterRing",
+      "Level": 5
+    },
+    {
+      "Tech": "BrickBlock",
+      "Level": 10
+    },
+    {
+      "Tech": "RootHeal",
+      "Level": 12
+    },
+    {
+      "Tech": "BlockBash",
+      "Level": 15
+    },
+    {
+      "Tech": "BlockTail",
+      "Level": 20
+    },
+    {
+      "Tech": "BuildingBlocks",
+      "Level": 25
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "Turtorix",
+  "Diet": "Metalvore",
+  "Class": "Mechanica",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "Snapdragon",
+  "Passive": "Blocky",
+  "EXPCurve": "Easy",
+  "Spot": ""
+}

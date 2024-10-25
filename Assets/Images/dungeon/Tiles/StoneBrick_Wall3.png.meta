@@ -1,0 +1,614 @@
+fileFormatVersion: 2
+guid: 67416276bc6c99a4a98dbe5d821f7ae2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2420556305485501394
+    second: StoneBrick_Wall3_0
+  - first:
+      213: -8563677251844278851
+    second: StoneBrick_Wall3_1
+  - first:
+      213: -3472510871989318428
+    second: StoneBrick_Wall3_2
+  - first:
+      213: -648838751130695110
+    second: StoneBrick_Wall3_3
+  - first:
+      213: -8173318358600695179
+    second: StoneBrick_Wall3_4
+  - first:
+      213: -2714919930931352741
+    second: StoneBrick_Wall3_5
+  - first:
+      213: -2318079938981366383
+    second: StoneBrick_Wall3_6
+  - first:
+      213: -8606481000450617802
+    second: StoneBrick_Wall3_7
+  - first:
+      213: -3438843936193242623
+    second: StoneBrick_Wall3_8
+  - first:
+      213: -6816141964408234110
+    second: StoneBrick_Wall3_9
+  - first:
+      213: -4728060369730892864
+    second: StoneBrick_Wall3_10
+  - first:
+      213: 3674103074804206554
+    second: StoneBrick_Wall3_11
+  - first:
+      213: 4004639025431387178
+    second: StoneBrick_Wall3_12
+  - first:
+      213: -4586863764342456554
+    second: StoneBrick_Wall3_13
+  - first:
+      213: 6728307274031308043
+    second: StoneBrick_Wall3_14
+  - first:
+      213: -5540308972923294838
+    second: StoneBrick_Wall3_15
+  - first:
+      213: 1646398144431918124
+    second: StoneBrick_Wall3_16
+  - first:
+      213: -6242000156719677042
+    second: StoneBrick_Wall3_17
+  - first:
+      213: -2503237565775380314
+    second: StoneBrick_Wall3_18
+  - first:
+      213: -7667097584734334049
+    second: StoneBrick_Wall3_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d39b4b922b879120800000000000000
+      internalID: 2420556305485501394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db57ab869e4b72980800000000000000
+      internalID: -8563677251844278851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec056492c92fcfc0800000000000000
+      internalID: -3472510871989318428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ac852f79cdef6f0800000000000000
+      internalID: -648838751130695110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5724d67c14a829e80800000000000000
+      internalID: -8173318358600695179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b653305baa25ad0800000000000000
+      internalID: -2714919930931352741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1957e04c39684dfd0800000000000000
+      internalID: -2318079938981366383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e0ef11123af8880800000000000000
+      internalID: -8606481000450617802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a1239e8a5c640d0800000000000000
+      internalID: -3438843936193242623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f50d03ff23861a0800000000000000
+      internalID: -6816141964408234110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb8691e42e826eb0800000000000000
+      internalID: -4728060369730892864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb00e1c7490df230800000000000000
+      internalID: 3674103074804206554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c1184e9f5539730800000000000000
+      internalID: 4004639025431387178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fb14565bf2850c0800000000000000
+      internalID: -4586863764342456554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_14
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d105051dfbf5d50800000000000000
+      internalID: 6728307274031308043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b6ffac75edc13b0800000000000000
+      internalID: -5540308972923294838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_16
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c0abda36e29d610800000000000000
+      internalID: 1646398144431918124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_17
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e818ac2dde5ff59a0800000000000000
+      internalID: -6242000156719677042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_18
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a08b8752b6b24dd0800000000000000
+      internalID: -2503237565775380314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneBrick_Wall3_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9397a36e5ff89590800000000000000
+      internalID: -7667097584734334049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      StoneBrick_Wall3_0: 2420556305485501394
+      StoneBrick_Wall3_1: -8563677251844278851
+      StoneBrick_Wall3_10: -4728060369730892864
+      StoneBrick_Wall3_11: 3674103074804206554
+      StoneBrick_Wall3_12: 4004639025431387178
+      StoneBrick_Wall3_13: -4586863764342456554
+      StoneBrick_Wall3_14: 6728307274031308043
+      StoneBrick_Wall3_15: -5540308972923294838
+      StoneBrick_Wall3_16: 1646398144431918124
+      StoneBrick_Wall3_17: -6242000156719677042
+      StoneBrick_Wall3_18: -2503237565775380314
+      StoneBrick_Wall3_19: -7667097584734334049
+      StoneBrick_Wall3_2: -3472510871989318428
+      StoneBrick_Wall3_3: -648838751130695110
+      StoneBrick_Wall3_4: -8173318358600695179
+      StoneBrick_Wall3_5: -2714919930931352741
+      StoneBrick_Wall3_6: -2318079938981366383
+      StoneBrick_Wall3_7: -8606481000450617802
+      StoneBrick_Wall3_8: -3438843936193242623
+      StoneBrick_Wall3_9: -6816141964408234110
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

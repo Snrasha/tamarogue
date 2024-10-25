@@ -1,0 +1,56 @@
+{
+  "Element": "DarkEarth",
+  "BaseHP": 10.0,
+  "BaseWeight": 125,
+  "Affinity": {
+    "HP": 0.8,
+    "Strength": 1.0,
+    "Magic": 0.4,
+    "Wisdom": 0.3,
+    "Speed": 0.6
+  },
+  "Techs": [
+    {
+      "Tech": "RockBash",
+      "Level": 1
+    },
+    {
+      "Tech": "EarthKick",
+      "Level": 3
+    },
+    {
+      "Tech": "StoneStun",
+      "Level": 5
+    },
+    {
+      "Tech": "MetalSpear",
+      "Level": 8
+    },
+    {
+      "Tech": "RockSling",
+      "Level": 10
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Rokahtl",
+      "Level": 12
+    }
+  ],
+  "BaseAncestor": "DarkRokee",
+  "Diet": "Metalvore",
+  "Class": "Lizard",
+  "Behavior": "Slow",
+  "Drops": [
+    {
+      "Item": "Spear",
+      "Chance": 0.08
+    }
+  ],
+  "Name": null,
+  "FavoriteItem": "Rock",
+  "Passive": "None",
+  "EXPCurve": "Steep",
+  "DexDescription": "A rock golem Tama.",
+  "Spot": "ProtocolForest"
+}

@@ -1,0 +1,50 @@
+{
+    "Element": "Machine",
+    "BaseHP": 13.0,
+    "BaseWeight": 150,
+    "Affinity": {
+        "HP": 1.0,
+        "Strength": 1.1,
+        "Magic": 0.6,
+        "Wisdom": 0.5,
+        "Speed": 1.0
+    },
+    "Techs": [
+        {
+          "Tech": "Reinforce",
+          "Level": 10
+        },
+        {
+            "Tech": "PincerClaw",
+            "Level": 12
+        },
+        {
+            "Tech": "BubbleBarrage",
+            "Level": 15
+        },
+        {
+            "Tech": "VoltClaw",
+            "Level": 18
+        }
+    ],
+    "Evolutions": [
+    ],
+    "BaseAncestor": "Crable",
+    "Diet": "Omnivore",
+    "Class": "Crab",
+    "Behavior": "Aggressive",
+    "Drops": [
+        {
+            "Item": "MetalShell",
+            "Chance": 0.35
+        },
+        {
+            "Item": "MechParts",
+            "Chance": 0.05
+        }
+    ],
+    "FavoriteItem": "MechParts",
+    "Passive": "Condensator2",
+    "EXPCurve": "Normal",
+    "Spot": "CircuitShore"
+}

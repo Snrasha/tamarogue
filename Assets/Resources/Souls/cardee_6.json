@@ -1,0 +1,61 @@
+{
+    "Element": "Ice",
+    "BaseHP": 15.0,
+    "BaseWeight": 90,
+    "Affinity": {
+      "HP": 1.05,
+      "Strength": 1.0,
+      "Magic": 0.95,
+      "Wisdom": 0.55,
+      "Speed": 0.95
+    },
+    "Techs": [
+      {
+        "Tech": "Snowball",
+        "Level": 1
+      },
+      {
+        "Tech": "ColdSpike",
+        "Level": 2
+      },
+      {
+        "Tech": "RapidSwim",
+        "Level": 4
+      },
+      {
+        "Tech": "FreezeBug",
+        "Level": 7
+      },
+      {
+        "Tech": "WaterSpear",
+        "Level": 10
+      },
+      {
+        "Tech": "IceBreaker",
+        "Level": 15
+      },
+      {
+        "Tech": "MysticWave",
+        "Level": 20
+      },
+      {
+        "Tech": "Avalanche",
+        "Level": 25
+      }
+    ],
+    "Evolutions": [],
+    "BaseAncestor": "Cardee_6",
+    "Diet": "Omnivore",
+    "Class": "Fish",
+    "Behavior": "Slow",
+    "Drops": [
+      {
+        "Item": "Booster06",
+        "Chance": 0.1
+      }
+    ],
+    "EXPCurve": "Normal",
+    "Passive": "None",
+    "Spot": "Snowlands"
+  }
+  

@@ -1,0 +1,47 @@
+{
+  "Element": "Water",
+  "BaseHP": 4.0,
+  "BaseWeight": 60,
+  "Affinity": {
+      "HP": 0.7,
+      "Strength": 0.8,
+      "Magic": 0.6,
+      "Wisdom": 0.4,
+      "Speed": 1.0
+    },
+    "Techs": [
+    {
+      "Tech": "Bash",
+      "Level": 1
+    },
+    {
+      "Tech": "Jet",
+      "Level": 2
+    },
+    {
+      "Tech": "BubbleSort",
+      "Level": 4
+    },
+    {
+      "Tech": "WaterSplash",
+      "Level": 7
+    }
+  ],
+  "Evolutions": [
+    {
+      "Species": "Geckle",
+      "Level": 10
+    }
+  ],
+  "BaseAncestor": "Taple",
+  "Diet": "Herbivore",
+  "Class": "Amphibian",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "ZipFly",
+  "Passive": "None",
+  "EXPCurve": "Easy",
+  "DexDescription": "A tadpole Tama.",
+  "Spot": "MistyMarsh"
+}

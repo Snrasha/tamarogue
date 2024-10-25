@@ -1,0 +1,30 @@
+{
+  "Element": "Neutral",
+  "BaseHP": 8.0,
+  "BaseWeight": 50,
+  "Affinity": {
+      "HP": 0.9,
+      "Strength": 0.85,
+      "Magic": 0.75,
+      "Wisdom": 0.5,
+      "Speed": 0.7
+    },
+    "Techs": [
+    {
+      "Tech": "DummyPunch",
+      "Level": 1
+    }
+  ],
+  "Evolutions": [
+  ],
+  "BaseAncestor": "DecoyCat",
+  "Diet": "Carnivore",
+  "Class": "Fox",
+  "Behavior": "Stationary",
+  "Drops": [],
+  "Name": null,
+  "FavoriteItem": "RedRibbon",
+  "Passive": "None",
+  "EXPCurve": "Easy",
+  "Spot": ""
+}
