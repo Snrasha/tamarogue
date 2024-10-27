@@ -14,6 +14,11 @@ namespace Assets.Scripts.Datas.Members
 
 		public float Speed = 1f;
 
+		public override string ToString()
+        {
+			return "HP: "+HP + " St:" + Strength + " M:" + Magic + " W:" + Wisdom + " Sp:" + Speed;
+        }
+
 		public float Sum
 		{
 			get

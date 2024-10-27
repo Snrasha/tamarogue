@@ -30,21 +30,17 @@ public class InputHandler : MonoBehaviour
     public void Init()
     {
 
-        player = Engine.Instance.GetPlayerEntity();
-        playerAI = player.GetComponent<PlayerAI>();
+        UpdatePlayer();
         inputManager = this.GetComponent<PlayerInputManager>();
         isFOVrecompute = true; // When the player appears for first time, we need to calculate the initial FOV
         timeTillNextFrame = 0f;
         inputManager.Init();
+    }
 
-   
-
-
-        //inputActionMap.FindAction("Move").performed += OnMovement;
-
-        //    fire.performed += OnFireAction;
-
-
+    public void UpdatePlayer()
+    {
+        player = Engine.Instance.GetPlayerEntity();
+        playerAI = player.GetComponent<PlayerAI>();
     }
 
     // removed for be smooth movement
@@ -102,6 +98,12 @@ public class InputHandler : MonoBehaviour
                 playerAI.MovePlayer(this, GameCharacterDirection.Left);
 
             }
+            else if (inputManager.isWaiting && playerAI.isPlayerMoving == false && IsPlayerTurn)
+            {
+                inputManager.isWaiting = false;
+                EndOfPlayerTurn();
+            }
+
             //else if (Input.GetKey(KeyCode.Z) && playerAI.isPlayerMoving == false && IsPlayerTurn)
             //{
             //    // Give +1Health for waiting

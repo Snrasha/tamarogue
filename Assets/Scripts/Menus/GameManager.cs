@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public bool isPausedMenu = false;
     public bool isPausedPopup = false;
     private SceneManagerGame sceneManagerGame;
+    public static bool _debugNoSave;
 
     [SerializeField]
     private FadeEffectUI fade;
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
 
     private void Load()
     {
-        SaveLoad.Load();
+        SaveLoad.Load(_debugNoSave);
         level = SaveLoad.currentSave.currentGame.floor;
         sceneManagerGame = new SceneManagerGame();
 
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
 
     public void Awake()
     {
+        _debugNoSave = Application.isEditor;
         if (Instance == null)
         {
             DontDestroyOnLoad(transform.gameObject);
@@ -69,19 +71,41 @@ public class GameManager : MonoBehaviour
     private IEnumerator LoadLevelCo(SceneGame from, SceneGame to)
     {
         isDummy = false;
-        MusicMenu.MusicInstance.StopMusic();
+        bool stopmusic = false;
+        int musicFrom;
+        int musicTo;
+
         if (to == SceneGame.Dungeon)
         {
-            MusicMenu.MusicInstance.SetMusic(1);
+            musicTo = 1;
         }
-        if (to == SceneGame.Start)
+        else {
+            musicTo = 0;
+        }
+        if (to == SceneGame.Dungeon)
         {
-            MusicMenu.MusicInstance.SetMusic(0);
+            musicFrom = 1;
         }
+        else
+        {
+            musicFrom = 0;
+        }
+        stopmusic = musicFrom != musicTo;
+
+
+        if (stopmusic)
+        {
+            MusicMenu.MusicInstance.StopMusic();
+        }
+
+        MusicMenu.MusicInstance.SetMusic(musicTo);
         yield return fade.StartFadeIn();
         sceneManagerGame.GoToSceneAndSavePrevious(from, to);
         yield return fade.StartFadeOut();
-        MusicMenu.MusicInstance.PlayMusic();
+        if (stopmusic)
+        {
+            MusicMenu.MusicInstance.PlayMusic();
+        }
     }
 
 }

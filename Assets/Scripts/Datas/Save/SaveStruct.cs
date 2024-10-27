@@ -1,5 +1,5 @@
 ﻿
-using Assets.Scripts.Datas.Members;
+using Assets.Scripts.Datas.Enum.Stats;
 using Assets.Scripts.Datas.Struct;
 using System.Collections.Generic;
 
@@ -19,6 +19,9 @@ namespace Assets.Scripts.Datas.Save
         public DataSave( )
         {
             unlockedMonsters = new List<Species>();
+            unlockedMonsters.Add(Species.Taple);
+            unlockedMonsters.Add(Species.Dragonee);
+            unlockedMonsters.Add(Species.Kobou);
             slot = 1;
             loaded = true;
             gameInProgress = false;
@@ -83,6 +86,7 @@ namespace Assets.Scripts.Datas.Save
     public class GameSave
     {
         public int floor;
+        public int swapNumber = 0;
      //   public int hunger; // No Hunger system, just TP regen between each floor.
         public List<EntitySaved> monstersTeam;
         public List<EntitySaved> enemyList;
@@ -98,8 +102,9 @@ namespace Assets.Scripts.Datas.Save
         public GameSave()
         {
             this.floor = 0;
-         //   this.hunger = 100;
-            monstersTeam = new List<EntitySaved>();
+            //   this.hunger = 100;
+            swapNumber = 0;
+               monstersTeam = new List<EntitySaved>();
             monstersTeam.Add(new EntitySaved("Kobou"));
             monstersTeam.Add(new EntitySaved("Taple"));
             itemArray = new ItemStruct[0];
@@ -117,6 +122,7 @@ namespace Assets.Scripts.Datas.Save
             seed = gameSave.seed;
             itemArray = gameSave.itemArray;
             exitArray = gameSave.exitArray;
+            swapNumber= gameSave.swapNumber;
 
 
             monstersTeam = new List<EntitySaved>();
@@ -146,6 +152,7 @@ namespace Assets.Scripts.Datas.Save
     public struct GameStructWrapper
     {
         public int floor;
+        public int swapNumber;
     //    public int hunger;
         public EntityStructwrapper[] monstersTeam;
         public EntityStructwrapper[] enemyList;
@@ -161,7 +168,7 @@ namespace Assets.Scripts.Datas.Save
             seed = gameSave.seed;
             itemArray = gameSave.itemArray;
             exitArray = gameSave.exitArray;
-
+            swapNumber = gameSave.swapNumber;
             monstersTeam = new EntityStructwrapper[gameSave.monstersTeam.Count];
             for (int i = 0; i < gameSave.monstersTeam.Count; i++)
             {

@@ -69,7 +69,7 @@ public class GameStateManager: MonoBehaviour
                 // myObject.GetComponent<MyScript>().MyFunction(); for the enemies.
                 break;
         }
-        Engine.Instance.statusManager.UpdateUI();
+      //  Engine.Instance.statusManager.UpdateUI();
     }
     public bool IsPlayerTurn()
     {

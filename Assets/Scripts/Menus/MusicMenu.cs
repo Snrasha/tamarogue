@@ -15,7 +15,7 @@ public class MusicMenu : MonoBehaviour
     {
         if (MusicInstance==null)
         {
-            DontDestroyOnLoad(transform.gameObject);
+            //DontDestroyOnLoad(transform.gameObject);
             MusicInstance = this;
         }
         else
@@ -29,14 +29,22 @@ public class MusicMenu : MonoBehaviour
             SaveLoad.currentPrefs = SaveLoad.LoadPrefs();
         }
 
-
-        mainthemeaudio.volume = (SaveLoad.currentPrefs.musicVolume / 100f) * (SaveLoad.currentPrefs.totalVolume / 100f);
+        ReloadVolume();
         if (mainthemeaudio.volume > 0.01f)
         {
             mainthemeaudio.Play();
         }
 
     }
+    public void ReloadVolume(float volume)
+    {
+        mainthemeaudio.volume = volume;
+    }
+    public void ReloadVolume()
+    {
+        ReloadVolume((SaveLoad.currentPrefs.musicVolume / 100f) * (SaveLoad.currentPrefs.totalVolume / 100f));
+    }
+
     public void SetMusic(int i)
     {
         if (i == 0)
@@ -47,6 +55,7 @@ public class MusicMenu : MonoBehaviour
         {
             mainthemeaudio.clip = audioClipDungeon;
         }
+        ReloadVolume();
     }
 
 

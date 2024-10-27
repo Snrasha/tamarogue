@@ -17,6 +17,9 @@ public class Minimap : MonoBehaviour
     private int paddingX;
     private int paddingY;
 
+    private int widthMinimap = 10;
+    private int heightMinimap = 10;
+
     public void Init()
     {
         colors = new Color[6];
@@ -30,11 +33,9 @@ public class Minimap : MonoBehaviour
     }
     public void UpdateMap(Map map, int playerx, int playery)
     {
-        int padding = 4;
-
-        for (int j = -padding; j <= padding; j++)
+        for (int j = -heightMinimap; j <= heightMinimap; j++)
         {
-            for (int i = -padding; i <= padding; i++)
+            for (int i = -widthMinimap; i <= widthMinimap; i++)
             {
                 int x = playerx + i;
                 int y = playery + j;
@@ -124,8 +125,13 @@ public class Minimap : MonoBehaviour
 
     public void WriteTile(Vector3Int pos, int v)
     {
-      //  Debug.Log(pos.x + " " + pos.y+" "+v);
+        int x = pos.x + paddingX;
+        int y = pos.y + paddingY;
+  //       Debug.Log(x + " " + y+" "+v+" "+pos+" "+minimapTexAll);
+        if (x >= 0 &&y>=0 &&x<minimapTexAll.width &&y < minimapTexAll.height)
+        {
 
-        minimapTexAll.SetPixel(pos.x+ paddingX, pos.y+ paddingY, colors[v]);
+            minimapTexAll.SetPixel(x,y , colors[v]);
+        }
     }
 }

@@ -67,9 +67,12 @@ public class PlayerAI : MonoBehaviour,ConfirmListener
     //}
     public void MovePlayer(InputHandler inputHandler,GameCharacterDirection direction)
     {
-        isPlayerMoving = true;
         player.spriteAnimator.SetDirection(direction);
-
+        if (inputHandler.inputManager.isRotating)
+        {
+            return;
+        }
+        isPlayerMoving = true;
         _lastKnownPlayerPosition =transform.localPosition;
 
         switch (direction)
@@ -90,6 +93,9 @@ public class PlayerAI : MonoBehaviour,ConfirmListener
                 Debug.Log("There's a wall there, not walkable.");
                 break;
         }
+
+        
+
 
         if (!Engine.Instance.OnGround(_NextPlayerPosition.x, _NextPlayerPosition.y))
         {

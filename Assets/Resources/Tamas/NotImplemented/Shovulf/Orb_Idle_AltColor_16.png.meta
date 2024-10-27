@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: b81243547eb6e2049984f5a57ad50df6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5222402542768451707
+    second: Orb_Idle_AltColor_16_0
+  - first:
+      213: -7879942162125675509
+    second: Orb_Idle_AltColor_16_1
+  - first:
+      213: -6430989578008312825
+    second: Orb_Idle_AltColor_16_2
+  - first:
+      213: 7021788294127803238
+    second: Orb_Idle_AltColor_16_3
+  - first:
+      213: 651588869332797577
+    second: Orb_Idle_AltColor_16_4
+  - first:
+      213: -656836627601861251
+    second: Orb_Idle_AltColor_16_5
+  - first:
+      213: -3754032949169039100
+    second: Orb_Idle_AltColor_16_6
+  - first:
+      213: -2027512875521173854
+    second: Orb_Idle_AltColor_16_7
+  - first:
+      213: -6241553012802405
+    second: Orb_Idle_AltColor_16_8
+  - first:
+      213: -3795719639824804354
+    second: Orb_Idle_AltColor_16_9
+  - first:
+      213: -4276359603328134490
+    second: Orb_Idle_AltColor_16_10
+  - first:
+      213: -1293731522534417242
+    second: Orb_Idle_AltColor_16_11
+  - first:
+      213: -8922197817714559215
+    second: Orb_Idle_AltColor_16_12
+  - first:
+      213: 2338454192013016687
+    second: Orb_Idle_AltColor_16_13
+  - first:
+      213: -8527493994292602626
+    second: Orb_Idle_AltColor_16_14
+  - first:
+      213: 643617580075286148
+    second: Orb_Idle_AltColor_16_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f803c8e8c4687b0800000000000000
+      internalID: -5222402542768451707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0420ef6a52d4a290800000000000000
+      internalID: -7879942162125675509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70443983d0980c6a0800000000000000
+      internalID: -6430989578008312825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bdb7f1047627160800000000000000
+      internalID: 7021788294127803238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9880e28df98ea0900800000000000000
+      internalID: 651588869332797577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d755358319272e6f0800000000000000
+      internalID: -656836627601861251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409daa52ceef6ebc0800000000000000
+      internalID: -3754032949169039100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6970d28c3dcd3e0800000000000000
+      internalID: -2027512875521173854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c33d13753d9eff0800000000000000
+      internalID: -6241553012802405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5d4412915e25bc0800000000000000
+      internalID: -3795719639824804354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2dbcf099157a4c0800000000000000
+      internalID: -4276359603328134490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac5c94e80ebb0ee0800000000000000
+      internalID: -1293731522534417242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117bb5b4b5cfd2480800000000000000
+      internalID: -8922197817714559215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e757ea2bbd37020800000000000000
+      internalID: 2338454192013016687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_14
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef899ed846148a980800000000000000
+      internalID: -8527493994292602626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Idle_AltColor_16_15
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e759f67c69ee800800000000000000
+      internalID: 643617580075286148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Orb_Idle_AltColor_16_0: -5222402542768451707
+      Orb_Idle_AltColor_16_1: -7879942162125675509
+      Orb_Idle_AltColor_16_10: -4276359603328134490
+      Orb_Idle_AltColor_16_11: -1293731522534417242
+      Orb_Idle_AltColor_16_12: -8922197817714559215
+      Orb_Idle_AltColor_16_13: 2338454192013016687
+      Orb_Idle_AltColor_16_14: -8527493994292602626
+      Orb_Idle_AltColor_16_15: 643617580075286148
+      Orb_Idle_AltColor_16_2: -6430989578008312825
+      Orb_Idle_AltColor_16_3: 7021788294127803238
+      Orb_Idle_AltColor_16_4: 651588869332797577
+      Orb_Idle_AltColor_16_5: -656836627601861251
+      Orb_Idle_AltColor_16_6: -3754032949169039100
+      Orb_Idle_AltColor_16_7: -2027512875521173854
+      Orb_Idle_AltColor_16_8: -6241553012802405
+      Orb_Idle_AltColor_16_9: -3795719639824804354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

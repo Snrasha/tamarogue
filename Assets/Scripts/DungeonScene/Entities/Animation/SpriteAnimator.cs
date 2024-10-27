@@ -1,6 +1,7 @@
 
 using Assets.Scripts.Datas.Enum;
 using Assets.Scripts.Datas.Members;
+using Assets.Scripts.Datas.Texture;
 using UnityEngine;
 
 public class SpriteAnimator : MonoBehaviour
@@ -14,6 +15,9 @@ public class SpriteAnimator : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
     public SpriteRenderer shadowSpriteRenderer;
+    public SpriteRenderer directionSpriteRenderer;
+
+    public Sprite[] directions;
 
     private TextureTama textureTama;
     private int currentAnimationRow;
@@ -88,6 +92,7 @@ public class SpriteAnimator : MonoBehaviour
     {
         currentAnimationRow = GetRow(direction);
         currentDirection = direction;
+        directionSpriteRenderer.sprite = directions[(int)currentDirection];
         UpdateSprite();
         if (textureTama.IsSimpleSheet && (direction == GameCharacterDirection.Left || direction == GameCharacterDirection.Right))
         {

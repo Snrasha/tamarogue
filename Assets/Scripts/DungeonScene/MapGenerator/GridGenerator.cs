@@ -8,6 +8,8 @@ using Assets.Scripts.MapGenerator.Generator.Grid;
 using RogueElements.Examples;
 using Assets.Scripts.Datas.Save;
 using Assets.Scripts.Datas.Struct;
+using RogueElements;
+using System;
 
 public class GridGenerator : MonoBehaviour
 {
@@ -83,7 +85,7 @@ public class GridGenerator : MonoBehaviour
         for (int i = 0; i < groundtiles; i++)
         {
 
-            Rect rect2 = new Rect((int)(i * 17), typetex * 17 + 1, (int)16, (int)16);
+            UnityEngine.Rect rect2 = new UnityEngine.Rect((int)(i * 17), typetex * 17 + 1, (int)16, (int)16);
             //Color color = ground_texture.GetPixel(i * 17 + 8, 0 + 8);
             //if (color.a != 0)
             //{
@@ -147,7 +149,7 @@ public class GridGenerator : MonoBehaviour
                 sprites.Clear();
 
                 int v = h - y - 1;
-                Rect rect2 = new Rect((int)(x * 17), (int)((v) * 17) + 1, (int)16, (int)16);
+                UnityEngine.Rect rect2 = new UnityEngine.Rect((int)(x * 17), (int)((v) * 17) + 1, (int)16, (int)16);
                 Sprite sprite = Sprite.Create(wall_texture, rect2, standardPivot, 16);
                 sprite.name = wall_texture.name + "_" + x + "_" + y;
                 
@@ -180,7 +182,7 @@ public class GridGenerator : MonoBehaviour
         for (int i = 0; i < groundtiles; i++)
         {
 
-            Rect rect2 = new Rect((int)(i * 17), typetex * 17 + 1, (int)16, (int)16);
+            UnityEngine.Rect rect2 = new UnityEngine.Rect((int)(i * 17), typetex * 17 + 1, (int)16, (int)16);
             //Color color = ground_texture.GetPixel(i * 17 + 8, 0 + 8);
             //if (color.a != 0)
             //{
@@ -294,8 +296,8 @@ public class GridGenerator : MonoBehaviour
 
         do
         {
-            _randomX = Random.Range(1, mapWidthX - 1);
-            _randomY = Random.Range(1, mapHeightY - 1);
+            _randomX = UnityEngine.Random.Range(1, mapWidthX - 1);
+            _randomY = UnityEngine.Random.Range(1, mapHeightY - 1);
 
             
 
@@ -684,14 +686,18 @@ public class GridGenerator : MonoBehaviour
         }
         ClearReferences();
 
+
+
+        
+
         ulong seed = SaveLoad.currentSave.currentGame.seed;
-        map = MapGenerator_1.Run(seed, mapWidthX, mapHeightY);
+        map = MapGenerator_1.Run(seed, SaveLoad.currentSave.currentGame.floor);
         mapWidthX = map.Width;
         mapHeightY = map.Height;
 
         decorate.UpdateTilemap(map, this.floorMap, wallMaps, GroundTilesToApply, WallTilesToApply);
 
-        Random.InitState((int)seed);
+        UnityEngine.Random.InitState((int)seed);
 
         //  Debug.Log(map.Width + " " + map.Height);
         PlacePlayer();
@@ -701,8 +707,26 @@ public class GridGenerator : MonoBehaviour
 
         SaveLoad.currentSave.currentGame.firstLoad = false;
     }
-
-
+    public void LogOnStep(string message)
+    {
+        Debug.Log("OnStep " + message);
+    }
+    public void LogOnStepIn(string message)
+    {
+        Debug.Log("OnStepIn "+message);
+    }
+    public void LogOnStepOut()
+    {
+        Debug.Log("OnStepOut");
+    }
+    public void LogOnError(Exception exception)
+    {
+        Debug.Log("OnError "+ exception.StackTrace);
+    }
+    public void LogOnInit(IGenContext iGenContext)
+    {
+        Debug.Log("OnInit " + iGenContext.GetType()+" "+ iGenContext.ToString());
+    }
     public void NextFloor()
     {
         if (decorate == null)
@@ -713,18 +737,25 @@ public class GridGenerator : MonoBehaviour
 
         ClearReferences();
 
-
+        if (GameManager._debugNoSave)
+        {
+            GenContextDebug.OnStep += LogOnStep;
+            GenContextDebug.OnStepIn += LogOnStepIn;
+            GenContextDebug.OnInit += LogOnInit;
+            GenContextDebug.OnStepOut += LogOnStepOut;
+            GenContextDebug.OnError += LogOnError;
+        }
         ulong seed = RogueElements.MathUtils.Rand.NextUInt64();
         
         SaveLoad.currentSave.currentGame.seed = seed;
 
-        map = MapGenerator_1.Run(seed,mapWidthX, mapHeightY);
+        map = MapGenerator_1.Run(seed,SaveLoad.currentSave.currentGame.floor);
         mapWidthX = map.Width;
         mapHeightY = map.Height;
 
         decorate.UpdateTilemap(map, this.floorMap, wallMaps, GroundTilesToApply, WallTilesToApply);
 
-        Random.InitState((int)seed);
+        UnityEngine.Random.InitState((int)seed);
 
         //  Debug.Log(map.Width + " " + map.Height);
         PlacePlayer();

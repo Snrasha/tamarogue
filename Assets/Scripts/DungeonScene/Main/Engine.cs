@@ -22,6 +22,8 @@ public class Engine : MonoBehaviour
     public ItemGenerator itemGenerator;
     public EnemyGenerator enemyGenerator;
     public PlayerGenerator playerGenerator;
+    public DungeonMenuBehaviour menu;
+    public LevelSystem levelSystem;
 
     public GameStateManager gameStateManager;
     public InputHandler inputHandler;
@@ -34,15 +36,14 @@ public class Engine : MonoBehaviour
     public static Engine Instance;
 
 
+
     public void Start()
     {
         GameManager.GetInstance().isPausedMenu = true;
         Instance = this;
         // Places player in a valid floorTile
 
-        try
-        {
-
+            menu.Init();
             gridGenerator.Init();
 
             minimap.Init();
@@ -50,19 +51,28 @@ public class Engine : MonoBehaviour
 
             gameStateManager.Init();
 
-            statusManager.Init();
+        
             inputHandler.Init();
-            cameraController.Init();
-        }
-        catch(Exception e)
-        {
+        levelSystem.Init();
+        statusManager.UpdateUI();
 
-        }
         GameManager.GetInstance().isPausedMenu = false;
     }
+
+    public void SwapPlayer()
+    {
+        playerGenerator.SwapPlayer();
+        statusManager.UpdateUI();
+       
+    }
+
+
     public void SetPlayerEntity(Entity player)
     {
         _playerInstance = player;
+        Engine.Instance.cameraController.Init();
+        inputHandler.UpdatePlayer();
+
     }
     public Entity GetPlayerEntity()
     {
@@ -111,7 +121,7 @@ public class Engine : MonoBehaviour
         itemGenerator.SaveExits(currentGame);
 
 
-        SaveLoad.SaveFile();
+        SaveLoad.SaveFile(GameManager._debugNoSave);
 
         //   SaveLoad.currentSave.
     }

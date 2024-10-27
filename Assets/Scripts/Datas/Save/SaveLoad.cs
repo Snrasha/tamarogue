@@ -8,7 +8,7 @@ namespace Assets.Scripts.Datas.Save
 		public static DataSave currentSave;
 		public static Prefs currentPrefs;
 
-		public static void Load()
+		public static void Load(bool nosave)
         {
 			if ( !SaveLoad.currentPrefs.loaded)
 			{
@@ -16,7 +16,7 @@ namespace Assets.Scripts.Datas.Save
 			}
 			if (SaveLoad.currentSave==null || !SaveLoad.currentSave.loaded)
 			{
-				SaveLoad.currentSave = SaveLoad.LoadFile(SaveLoad.currentPrefs.currentSlot);
+				SaveLoad.currentSave = SaveLoad.LoadFile(nosave,SaveLoad.currentPrefs.currentSlot);
 			}
 		}
 
@@ -91,8 +91,13 @@ namespace Assets.Scripts.Datas.Save
 			file.Close();
 		}
 
-		public static void SaveFile()
+		public static void SaveFile(bool nosave)
 		{
+            if (nosave)
+            {
+				return;
+            }
+
 			DataSave dataStruct = currentSave;
 			//	dataStruct.slot = (dataStruct.slot + 1) % 10;
 			dataStruct.slot = currentPrefs.currentSlot;
@@ -128,13 +133,13 @@ namespace Assets.Scripts.Datas.Save
 			file.Close();
 		}
 
-		public static DataSave LoadFile(int number)
+		public static DataSave LoadFile(bool nosave,int number)
 		{
 			string destination = Application.persistentDataPath + "/save" + number + ".dat";
 			FileStream file;
 
 
-			if (File.Exists(destination)) file = File.OpenRead(destination);
+			if (!nosave && File.Exists(destination)) file = File.OpenRead(destination);
 			else
 			{
 			//	Debug.LogError("File not found");

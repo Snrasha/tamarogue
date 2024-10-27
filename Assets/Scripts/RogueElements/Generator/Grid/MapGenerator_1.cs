@@ -57,10 +57,9 @@ namespace Assets.Scripts.MapGenerator.Generator.Grid
             return context.Map;
         }
 
-
-       public static Map Run(ulong seed,int width, int height)
+        public static Map Run(ulong seed, int floor)
         {
-           // Console.Clear();
+            // Console.Clear();
             //const string title = "3: A Map made with Rooms and Halls arranged in a grid.";
 
             var layout = new MapGen<MapGenContext>();
@@ -82,41 +81,47 @@ namespace Assets.Scripts.MapGenerator.Generator.Grid
             //InitFloorPlanStep<MapGenContext> startGen = new InitFloorPlanStep<MapGenContext>(width, height);
             //layout.GenSteps.Add(-2, startGen);
 
+            // do not put cellwidth =1, will be infinite loading
+
             var startGen = new InitGridPlanStep<MapGenContext>(1)
             {
-                CellX = 5,
-                CellY = 5,
-                CellWidth = 12,
-                CellHeight = 12,
+                CellX = 5 + floor / 10,
+                CellY = 5 + floor / 10,
+                CellWidth = 12 + floor / 10,
+                CellHeight = 12 + floor / 10,
             };
             layout.GenSteps.Add(-4, startGen);
 
             // Create a path that is composed of branches in grid lock
             var path = new GridPathBranch<MapGenContext>
             {
-                RoomRatio = new RandRange(70),
+                RoomRatio = new RandRange(20,22),
                 BranchRatio = new RandRange(100, 150), //0 to 50 before
             };
+            //// Create a path that is composed of branches in grid lock
+            //var path = new GridPathBranch<MapGenContext>
+            //{
+            //    RoomRatio = new RandRange(20 + floor * 5),
+            //    BranchRatio = new RandRange(100, 150), //0 to 50 before
+            //};
 
-            
 
             var genericRooms = new SpawnList<RoomGen<MapGenContext>>
             {
-                { new RoomGenSquare<MapGenContext>(new RandRange(4, 8), new RandRange(4, 8)), 10 }, // cross
-                { new RoomGenRound<MapGenContext>(new RandRange(5, 9), new RandRange(5, 9)), 10 }, // round
+                { new RoomGenSquare<MapGenContext>(new RandRange(6, 9), new RandRange(6, 9)), Math.Min(1+floor/4,10) }, // cross
+                { new RoomGenRound<MapGenContext>(new RandRange(7, 9), new RandRange(7, 9)), Math.Min(2+floor/4,10) }, // round
             };
             path.GenericRooms = genericRooms;
 
-            var genericHalls = new SpawnList<PermissiveRoomGen<MapGenContext>> { { new RoomGenAngledHall<MapGenContext>(50), 10 } };
+            var genericHalls = new SpawnList<PermissiveRoomGen<MapGenContext>> { { new RoomGenAngledHall<MapGenContext>(50), Math.Min(2 + floor / 4, 10) } };
             path.GenericHalls = genericHalls;
 
             layout.GenSteps.Add(-4, path);
             var connect = new ConnectRoomStep<MapGenContext>
             {
-                ConnectFactor = new RandRange(150,200),
+                ConnectFactor = new RandRange(150, 200),
             };
             layout.GenSteps.Add(-3, connect);
-
 
             // Output the rooms into a FloorPlan
             layout.GenSteps.Add(-2, new DrawGridToFloorStep<MapGenContext>());
@@ -126,10 +131,92 @@ namespace Assets.Scripts.MapGenerator.Generator.Grid
 
             // Run the generator and print
             MapGenContext context = layout.GenMap(seed);
-          //  Debug.Log(context.Map.Width + " " + context.Map.Height);
+
+            
+            //  Debug.Log(context.Map.Width + " " + context.Map.Height);
             return context.Map;
-           // Print(context.Map, title);
+            // Print(context.Map, title);
         }
+
+        //public static Map Run(ulong seed,int floor)
+        //{
+        //   // Console.Clear();
+        //    //const string title = "3: A Map made with Rooms and Halls arranged in a grid.";
+
+        //    var layout = new MapGen<MapGenContext>();
+
+
+        //    //var startGen2 = new InitTilesStep<MapGenContext>(width, height);
+        //    //layout.GenSteps.Add(-3, startGen2);
+
+        //    //// Initialize a 6x4 grid of 10x10 cells.
+        //    //var startGen = new InitGridPlanStep<MapGenContext>(1)
+        //    //{
+        //    //    CellX = 6,
+        //    //    CellY = 6,
+        //    //    CellWidth = 9,
+        //    //    CellHeight = 9,
+        //    //};
+
+        //    // Initialize a 54x40 floorplan with which to populate with rectangular floor and halls.
+        //    //InitFloorPlanStep<MapGenContext> startGen = new InitFloorPlanStep<MapGenContext>(width, height);
+        //    //layout.GenSteps.Add(-2, startGen);
+
+        //    // do not put cellwidth =1, will be infinite loading
+
+        //    var startGen = new InitGridPlanStep<MapGenContext>(1)
+        //    {
+        //        CellX = 3 + floor / 10,
+        //        CellY =3 + floor / 10,
+        //        CellWidth = 10 + floor / 10,
+        //        CellHeight = 10 + floor/10,
+        //    };
+        //    layout.GenSteps.Add(-4, startGen);
+
+        //    // Create a path that is composed of branches in grid lock
+        //    var path = new GridPathBranch<MapGenContext>
+        //    {
+        //        RoomRatio = new RandRange(Math.Min(10,40-floor*5)),
+        //        BranchRatio = new RandRange(100, 150), //0 to 50 before
+        //    };
+        //    //// Create a path that is composed of branches in grid lock
+        //    //var path = new GridPathBranch<MapGenContext>
+        //    //{
+        //    //    RoomRatio = new RandRange(20 + floor * 5),
+        //    //    BranchRatio = new RandRange(100, 150), //0 to 50 before
+        //    //};
+
+
+        //    var genericRooms = new SpawnList<RoomGen<MapGenContext>>
+        //    {
+        //        { new RoomGenSquare<MapGenContext>(new RandRange(4, 8), new RandRange(4, 8)), Math.Min(1+floor/4,10) }, // cross
+        //        { new RoomGenRound<MapGenContext>(new RandRange(5, 9), new RandRange(5, 9)), Math.Min(2+floor/4,10) }, // round
+        //    };
+        //    path.GenericRooms = genericRooms;
+
+        //    var genericHalls = new SpawnList<PermissiveRoomGen<MapGenContext>> { { new RoomGenAngledHall<MapGenContext>(50), Math.Min(2 + floor / 4, 10) } };
+        //    path.GenericHalls = genericHalls;
+
+        //    layout.GenSteps.Add(-4, path);
+        //    var connect = new ConnectRoomStep<MapGenContext>
+        //    {
+        //        ConnectFactor = new RandRange(150,200),
+        //    };
+        //    layout.GenSteps.Add(-3, connect);
+
+
+        //    // Output the rooms into a FloorPlan
+        //    layout.GenSteps.Add(-2, new DrawGridToFloorStep<MapGenContext>());
+
+        //    // Draw the rooms of the FloorPlan onto the tiled map, with 1 TILE padded on each side
+        //    layout.GenSteps.Add(0, new DrawFloorToTileStep<MapGenContext>(2));
+
+        //    // Run the generator and print
+        //    MapGenContext context = layout.GenMap(seed);
+        //  //  Debug.Log(context.Map.Width + " " + context.Map.Height);
+        //    return context.Map;
+        //   // Print(context.Map, title);
+        //}
 
         public static void Print(Map map, string title)
         {

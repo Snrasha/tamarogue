@@ -15,8 +15,6 @@ public class Entity : MonoBehaviour
     public SpriteAnimator spriteAnimator;
 
     public MonsterStats monsterStats;
-    public Level level;
-
     
     public bool isBlockingEntity; // This will differentiate if is a physic body or we can pass through (potion), without need to check colliders or is trigger.
     //public int health;
@@ -63,8 +61,6 @@ public class Entity : MonoBehaviour
         if (isPlayer)
         {
             this.gameObject.AddComponent<PlayerAI>();
-            level = this.gameObject.AddComponent<Level>();
-
         }
         else
         {
@@ -72,7 +68,8 @@ public class Entity : MonoBehaviour
             this.gameObject.AddComponent<H_Stealth>();
         }
         monsterStats = tama.monster;
-        SetValues(tama.x, tama.y, tama.entityname);
+        
+        SetValues(tama.x, tama.y, tama.monster.monsterSoul.specie.ToString());
     }
     public EntitySaved GetStruct()
     {
@@ -92,7 +89,6 @@ public class Entity : MonoBehaviour
         {
             spriteAnimator.Init(tama);
             this.gameObject.AddComponent<PlayerAI>();
-           level= this.gameObject.AddComponent<Level>();
             monsterStats = new MonsterStats(isPlayer, tama);
             this.gameObject.name = "Player_"+tama;
 
@@ -128,28 +124,27 @@ public class Entity : MonoBehaviour
         {
             return true;
         }
-
-        //Debug.Log("## COMBAT MODE: Enabled");
-        int _resolved = defender.monsterStats.Defense - monsterStats.Attack;
-
-      //  Debug.Log("ResolveDefense :" + _resolved+" "+ defender.monsterStats.HP);
-        //Debug.Log("## COMBAT: Attack vs Defense resolved:" + _resolved);
-        if (_resolved == 0) // Will be because at the moment both are 10
-        {
-            float _rand = (int)Random.Range(0, 100);
-            if (_rand < 50)
-            {
-                MessageLogManager.Instance.AddToQueue(defender.name + ": Atk blocked!");
-                //Debug.Log("## COMBAT: Attack blocked!");
-            }
-            else
-            {
-                MessageLogManager.Instance.AddToQueue(gameObject.name + ": Atk for <color=green>1</color> hp!");
-                //Debug.Log("## COMBAT: Attack successful for (1) hit point!"); // TODO this number will be dynamic
-                defender.monsterStats.HP--;
-                defender.isAgressive = true;
-            }
-        }
+        int damage = (int)monsterStats.GetBaseAttackPower();
+        MessageLogManager.Instance.AddToQueue(entityname + ": Atk for <color=green>"+ damage + "</color> hp!");
+        //Debug.Log("## COMBAT: Attack successful for (1) hit point!"); // TODO this number will be dynamic
+        defender.monsterStats.HP-= damage;
+        defender.isAgressive = true;
+        //if (_resolved == 0) // Will be because at the moment both are 10
+        //{
+        //    float _rand = (int)Random.Range(0, 100);
+        //    if (_rand < 50)
+        //    {
+        //        MessageLogManager.Instance.AddToQueue(defender.name + ": Atk blocked!");
+        //        //Debug.Log("## COMBAT: Attack blocked!");
+        //    }
+        //    else
+        //    {
+        //        MessageLogManager.Instance.AddToQueue(gameObject.name + ": Atk for <color=green>1</color> hp!");
+        //        //Debug.Log("## COMBAT: Attack successful for (1) hit point!"); // TODO this number will be dynamic
+        //        defender.monsterStats.HP--;
+        //        defender.isAgressive = true;
+        //    }
+        //}
 
         return ResolveDeath(defender); // Check if somebody is death after a successful attack
     }
@@ -157,7 +152,7 @@ public class Entity : MonoBehaviour
     /* Used mainly when ENEMIES attack the PLAYER */
     public bool ResolveAttack(Entity defender, EntityMode _entityMode) {
         // TODO: Ranged attacks works nicely and the player is hit back, but there's no graphical cue of this YET
-        MessageLogManager.Instance.AddToQueue(gameObject.name + " Counter Atk back!");
+        MessageLogManager.Instance.AddToQueue(entityname + " Counter Atk back!");
         //ShootEffect(attacker, defender);
         //Debug.Log("## COMBAT: Entity attacks back!!");
         return ResolveDefense( defender);
@@ -184,21 +179,12 @@ public class Entity : MonoBehaviour
                 {
                     SaveLoad.currentSave.Lose();
                     GameManager.GetInstance().LoadLevel(SceneGame.Dungeon, SceneGame.Start);
-
-                    // Run PlayerDeath() function
-                    //defender.gameObject.SetActive(false);
-
                 }
                 else
                 {
-                //    Debug.Log("ResolveDeathyy:" + defender.monsterStats.HP);
-
                     MessageLogManager.Instance.AddToQueue(defender.entityname + " has been destroyed");
-                    // Add XP parameter from the defender that dies, to the attacker that wins:
-                    int _xp = defender.monsterStats.EXP;
-                    level.AddXP(monsterStats,_xp);
+                    Engine.Instance.levelSystem.AddXP(monsterStats);
                     Engine.Instance.enemyGenerator.DestroyEnemy(defender);
-                   // defender.gameObject.SetActive(false); // TODO Instead of killing them, we can disable them, and reactivate them after x turns. Start a turn checker here and add them to a list:
                 }
                 return true;
             }

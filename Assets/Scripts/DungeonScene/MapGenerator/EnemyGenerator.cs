@@ -24,15 +24,15 @@ public class EnemyGenerator : MonoBehaviour
 
     public void DestroyEnemy(Entity entity)
     {
-        Debug.Log("DestroyEnemy: " + entity.monsterStats.HP+" "+ listOfEnemyEntities.Count);
+     //   Debug.Log("DestroyEnemy: " + entity.monsterStats.HP+" "+ listOfEnemyEntities.Count);
         listOfEnemyEntities.Remove(entity);
         entity.gameObject.SetActive(false);
         Destroy(entity.gameObject);
-        Debug.Log("DestroyEnemy2: " + listOfEnemyEntities.Count);
+    //    Debug.Log("DestroyEnemy2: " + listOfEnemyEntities.Count);
     }
     public void SaveEnemies(GameSave currentGame)
     {
-        Debug.Log("SaveEnemies: " + listOfEnemyEntities.Count);
+    //    Debug.Log("SaveEnemies: " + listOfEnemyEntities.Count);
 
         currentGame.enemyList = new List<EntitySaved>();
         foreach (Entity enemy in listOfEnemyEntities)
@@ -43,7 +43,7 @@ public class EnemyGenerator : MonoBehaviour
                 currentGame.enemyList.Add(savedenemy);
             }
         }
-        Debug.Log("SaveEnemies2: " + listOfEnemyEntities.Count);
+   //     Debug.Log("SaveEnemies2: " + listOfEnemyEntities.Count);
 
     }
     public void Clear()

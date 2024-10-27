@@ -14,14 +14,23 @@ public class ChoiceMenu : MonoBehaviour, ConfirmListener
 
     public Button confirmButton;
 
+    public SlotManager slotManager;
+
     public void Awake()
     {
         confirmButton.interactable = true;
+        slotManager.Init();
     }
 
     public void OnClickConfirm()
     {
-        ConfirmationPopupStandard.instance.OpenPopup("Start ?",this);
+        if (slotManager.slotTamaFirst.GetTama() != null && slotManager.slotTamaSecond.GetTama() != null)
+        {
+            tama1 = slotManager.slotTamaFirst.GetTama();
+            tama2 = slotManager.slotTamaSecond.GetTama();
+
+            ConfirmationPopupStandard.instance.OpenPopup("Start ?", this);
+        }
     }
     public void OnClickBack()
     {

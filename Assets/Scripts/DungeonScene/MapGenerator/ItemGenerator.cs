@@ -110,7 +110,10 @@ public class ItemGenerator :MonoBehaviour
 
             // Random Item effect our instance will have
             int _rand = UnityEngine.Random.Range(1, 4);
-            Consumable consumable = ItemGlobal.GetConsumable((ItemEnum)_rand);
+
+            ItemEnum cons=GetChoice(_rand);
+
+            Consumable consumable = ItemGlobal.GetConsumable(cons);
             Vector2 space=gridGenerator.GetEmptySpace();
             itemObject=Instantiate(itemPrefab, new Vector3(space.x , space.y, 0), Quaternion.identity);
             itemD= itemObject.GetComponent<ItemDungeon>();
@@ -120,6 +123,26 @@ public class ItemGenerator :MonoBehaviour
             listOfItems.Add(itemD);
         }
     }
+    private ItemEnum GetChoice(int rand)
+    {
+        ItemEnum choice = ItemEnum.RecoveryDisc;
+
+        if (rand == 1)
+        {
+            choice = ItemEnum.Honey;
+        }
+        if (rand == 2)
+        {
+            choice = ItemEnum.Meat;
+        }
+        if (rand ==3)
+        {
+            choice = ItemEnum.RecoveryDisc;
+        }
+        return choice;
+    }
+
+
    public  void PlaceExit(GridGenerator gridGenerator)
     {
         GameObject exit;

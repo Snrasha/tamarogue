@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class FadeEffectUI : MonoBehaviour
 {
     public AnimationCurve curve;
-    public float duration = 0.5f;
+    public float duration = 0.25f;
 
     [SerializeField]
     private Image fade;

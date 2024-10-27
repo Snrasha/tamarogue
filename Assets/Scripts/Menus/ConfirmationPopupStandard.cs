@@ -121,7 +121,17 @@ public class ConfirmationPopupStandard : MonoBehaviour, ConfirmListener
         }
         if (!instance.allowQuitting)
         {
-            instance.OpenPopup("Quit ?", instance);
+
+            // Firstload is true only at the StartMenu and choice menu. Always false otherwise.
+            if (SaveLoad.currentSave.currentGame.firstLoad)
+            {
+                instance.OpenPopup("Quit ?", instance);
+            }
+            else
+            {
+                instance.OpenPopup("Save & Quit ?", instance);
+
+            }
             return false;
         }
         else

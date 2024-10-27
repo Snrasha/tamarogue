@@ -13,6 +13,11 @@ public class PlayerInputManager : MonoBehaviour
     private string currentControlScheme;
     public Vector2 rawInputMovement;
 
+    public bool isRotating;
+
+    public bool isWaiting;
+    
+
 
 
     public int speed = 3;
@@ -81,11 +86,12 @@ public class PlayerInputManager : MonoBehaviour
 
         if (toggle)
         {
-            ConfirmationPopupStandard.instance.OpenPopup("Test !", null);
+            Engine.Instance.menu.Open();
         }
         else
         {
-            ConfirmationPopupStandard.instance.ClosePopup();
+            Engine.Instance.menu.Close();
+
         }
        // UpdateUIMenu();
 
@@ -101,6 +107,34 @@ public class PlayerInputManager : MonoBehaviour
             case false:
                 EnableGameplayControls();
                 break;
+        }
+    }
+    public void OnWait(InputAction.CallbackContext context)
+    {
+        if (GameManager.GetInstance().IsPaused())
+        {
+            return;
+        }
+
+        if (context.started)
+        {
+            isWaiting = true;
+        }
+    }
+    public void OnRotate(InputAction.CallbackContext context)
+    {
+        if (GameManager.GetInstance().IsPaused())
+        {
+            return;
+        }
+        if (context.started)
+        {
+            isRotating = true;
+        }
+
+        if (context.canceled)
+        {
+            isRotating = false;
         }
     }
 
